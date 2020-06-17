@@ -1,0 +1,277 @@
+@font-face {
+  font-family: 'Devonshire';
+  font-style: normal;
+  font-weight: 200;
+  src: url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Devonshire-Regular"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.woff2") format("woff2"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.woff") format("woff"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.ttf") format("truetype"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.svg#Devonshire") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.woff2") format("woff2"), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.woff") format("woff"), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.ttf") format("truetype"), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.svg#DancingScript") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.woff") format("woff"), url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.woff2") format("woff2"), url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.ttf") format("truetype"), url("fonts/kaushan-script-v8-latinkaushan-script-v8-latin-regular.svg#KaushanScript") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Croissant One';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Croissant One"), local("CroissantOne-Regular"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.woff2") format("woff2"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.woff") format("woff"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.ttf") format("truetype"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.svg#CroissantOne") format("svg");
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Khmer';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Khmer"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.eot?#iefix") format("embedded-opentype"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.woff2") format("woff2"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.woff") format("woff"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.ttf") format("truetype"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.svg#Khmer") format("svg");
+  /* Legacy iOS */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 243px;
+  background: #569c87;
+  border-bottom: 2px solid #a1c181;
+}
+
+header h1 {
+  font-size: 4.4em;
+  margin: 0px;
+  text-align: center;
+  color: #fdcb46;
+}
+
+footer {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 136px;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #569c87;
+  border-top: 2px solid #a1c181;
+  bottom: 0px;
+}
+
+footer a {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 2.2em;
+  color: #fdcb46;
+}
+
+#conteneur {
+  margin-bottom: 175px;
+}
+
+.ligne1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+.ligne2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 90px;
+}
+
+.menu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  width: 536px;
+  height: 760px;
+  margin-left: 160px;
+  background: #fcdfdb;
+}
+
+.menu1 h2 {
+  font-weight: 100;
+  font-family: 'Devonshire';
+  font-size: 2.5em;
+  color: #3c1218;
+}
+
+.menu1 p {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'bradley hand';
+  color: #3c1218;
+}
+
+.menu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  width: 536px;
+  height: 760px;
+  margin-left: 102px;
+  margin-right: 161px;
+  background: #fff5fe;
+}
+
+.menu2 h2 {
+  font-weight: 100;
+  font-family: 'Croissant One';
+  font-size: 1.7em;
+  background: -webkit-gradient(linear, left top, right bottom, from(#d8852e), to(#9861ef));
+  background: linear-gradient(to bottom right, #d8852e, #9861ef);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu2 p {
+  text-align: center;
+  font-size: 3em;
+}
+
+.menu3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  width: 536px;
+  height: 760px;
+  margin-left: 160px;
+  background: #F9F9F9;
+}
+
+.menu3 h2 {
+  font-weight: 200;
+  font-family: 'Dancing Script';
+  padding-left: 12px;
+  font-size: 3em;
+  background: -webkit-gradient(linear, left top, right bottom, from(#0431df), to(#0887fb));
+  background: linear-gradient(to bottom right, #0431df, #0887fb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu3 p {
+  text-align: center;
+  font-size: 3em;
+  color: #0887fb;
+}
+
+.menu4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  width: 536px;
+  height: 760px;
+  margin-left: 102px;
+  margin-right: 161px;
+  background: #fdfffd;
+}
+
+.menu4 h2 {
+  font-weight: 100;
+  font-family: 'Kaushan Script';
+  font-size: 3em;
+  background: -webkit-gradient(linear, left top, right bottom, from(blue), to(blue));
+  background: linear-gradient(to bottom right, blue, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu4 p {
+  text-align: center;
+  font-size: 3em;
+}
+
+button {
+  margin-top: 50px;
+  background: #569c87;
+  color: #fdcb46;
+}
+/*# sourceMappingURL=style.css.map */

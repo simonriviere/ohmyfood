@@ -1,0 +1,21 @@
+@mixin carreMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border : 1px solid black;
+    width: 536px;
+    height : 760px;
+
+}
+
+@mixin ligne{
+    display: flex;
+
+}
+
+@mixin degrade($color:#7575be){
+    background:linear-gradient(to bottom right,$color, $color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

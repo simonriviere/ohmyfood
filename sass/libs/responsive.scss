@@ -1,5 +1,4 @@
-$medium: 768px!default; // !default = 
-                        // si aucune valeur définit dans le css
+$medium: 768px!default; 
 $large: 1000px!default;
 
 $medium-up: "only screen and(min-width:#{$medium})";
