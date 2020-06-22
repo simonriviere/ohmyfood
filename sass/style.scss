@@ -2,7 +2,7 @@
 @import "libs/mixins.scss";
 @import "libs/fonts.scss";
 @import "libs/colors.scss"; 
-
+@import"libs/keyframes.scss";
 
 body{
   margin: 0;
@@ -47,8 +47,13 @@ bottom: 0px;
     padding-right: 40px;
     font-size: 3em;
     color : $colorTextPrincipal;
+    
   }
-
+  p{
+    &:hover{
+      animation:headshake 400ms infinite;
+    }
+  }  
 }
 
 #conteneur{
@@ -222,19 +227,8 @@ font-size: 4em;
     animation: ptsSuspension ease-in-out 800ms 400ms infinite;
     }
 }
-  @keyframes ptsSuspension{
-   0%{
-     transform : translateY(10px);
-   }
-    50%{
-      transform: translateY(17px);
-     
-    }
-    100%{
-      transform : translateY(10px);
-  
-    }
-  }
+
+
 
 
 
