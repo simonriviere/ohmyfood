@@ -23,7 +23,7 @@
 @font-face {
   font-family: 'Devonshire';
   font-style: normal;
-  font-weight: 200;
+  font-weight: 100;
   src: url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.eot");
   /* IE9 Compat Modes */
   src: local("Devonshire-Regular"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.woff2") format("woff2"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.woff") format("woff"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.ttf") format("truetype"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.svg#Devonshire") format("svg");
@@ -401,7 +401,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 180px;
+  height: 235px;
   background: #569c87;
   border-bottom: 2px solid #a1c181;
 }
@@ -427,7 +427,7 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  height: 100px;
+  height: 120px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -446,5 +446,147 @@ footer a {
 footer p:hover {
   -webkit-animation: headshake 400ms infinite;
           animation: headshake 400ms infinite;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+}
+
+main h2 {
+  font-size: 3.7em;
+  font-family: Helvetica;
+}
+
+#conteneur1 {
+  width: 87%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 85px 0px 100px 0px;
+  margin-bottom: 200px;
+  background: #fad7d3;
+  -webkit-box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+          box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+}
+
+#conteneur1 p {
+  margin: 0px 0px 30px 0px;
+}
+
+#entete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#entete h2 {
+  font-size: 4.5em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: Brush script MS;
+}
+
+#findepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+#findepage h2 {
+  font-size: 3em;
+  font-family: Brush script MS;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+#findepage .fas {
+  font-size: 2.5em;
+  background: -webkit-gradient(linear, left top, right top, from(#f0443e), to(#f78f6a));
+  background: linear-gradient(to right, #f0443e, #f78f6a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.partie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section {
+  width: 80%;
+}
+
+section h3 {
+  font-size: 2.2em;
+  font-weight: 200;
+  font-family: comic sans ms;
+}
+
+section .fas {
+  font-size: 6.75em;
+  background: -webkit-gradient(linear, left top, right top, from(#f0443e), to(#f78f6a));
+  background: linear-gradient(to right, #f0443e, #f78f6a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section img {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 288px;
+}
+
+#entree, #plat {
+  margin-bottom: 50px;
+}
+
+article .plat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.7em;
+  letter-spacing: 1.4px;
+}
+
+article .text {
+  font-family: Bradley hand;
 }
 /*# sourceMappingURL=style.css.map */

@@ -21,7 +21,7 @@ header{
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 180px;
+  height: 235px;
   background: $colorFondPrincipal;
   border-bottom: 2px solid #a1c181;
   h1{
@@ -41,7 +41,7 @@ position: fixed;
 display: flex;
 justify-content: space-between;
 width: 100%; 
-height: 100px;
+height: 120px;
 align-items: center;
 background-color:$colorFondPrincipal;
 border-top: 2px solid #a1c181;
@@ -59,3 +59,101 @@ bottom: 0px;
     }
   }  
 }
+
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 40px;
+  h2{
+    font-size: 3.7em;
+    font-family: Helvetica;
+  } 
+}
+
+#conteneur1{  
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 85px 0px 100px 0px;
+  margin-bottom: 200px;
+  background: $colorFondMenu1;
+  box-shadow:1px 1px 25px rgba(214, 214, 214, 0.932);
+  p{
+    margin: 0px 0px 30px 0px;
+  }
+}
+#entete{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  h2{
+    font-size: 4.5em;
+    margin-top:20px;
+    margin-bottom: 40px;
+    font-family: Brush script MS ;
+  }
+}
+#findepage{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  h2{
+    font-size: 3em;    
+    font-family: Brush script MS ;
+    margin:0px;
+    padding-left: 10px;
+  }
+  .fas{ 
+    font-size:2.5em;
+    background:linear-gradient(to right, #f0443e, #f78f6a);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.partie{
+  display: flex;
+  justify-content: space-between;
+}
+
+section{
+  width: 80%;
+
+  h3{
+    font-size: 2.2em;
+    font-weight: 200;
+    font-family: comic sans ms;
+  }
+  .fas{ 
+    font-size: 6.75em;
+    background:linear-gradient(to right, #f0443e, #f78f6a);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  img{
+    justify-content: start;
+    width: 288px;
+  }
+ 
+}
+ #entree, #plat{
+    margin-bottom: 50px;
+  }
+article{
+
+  .plat{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7em;
+    letter-spacing: 1.4px;
+  }
+  .text{
+    font-family: Bradley hand;
+   
+  }
+
+}
+  
