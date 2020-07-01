@@ -1,4 +1,15 @@
 /* montserrat-regular - latin */
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/dancing/dancing-script-v15-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("fonts/dancing/dancing-script-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/dancing/dancing-script-v15-latin-regular.woff2") format("woff2"), url("fonts/dancing/dancing-script-v15-latin-regular.woff") format("woff"), url("fonts/dancing/dancing-script-v15-latin-regular.ttf") format("truetype"), url("fonts/dancing/dancing-script-v15-latin-regular.svg#DancingScript") format("svg");
+  /* Legacy iOS */
+}
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -219,7 +230,7 @@
   text-align: center;
   font-size: 3em;
   font-family: 'bradley hand';
-  color: #3c1218;
+  color: #2e0e13;
 }
 
 #menu2 {
@@ -243,8 +254,8 @@
   font-weight: 100;
   font-family: 'Croissant One';
   font-size: 1.8em;
-  background: -webkit-gradient(linear, left top, right bottom, from(#d8852e), to(#9861ef));
-  background: linear-gradient(to bottom right, #d8852e, #9861ef);
+  background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#8f5bfe));
+  background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -375,6 +386,143 @@ button span:nth-child(3) {
           animation: ptsSuspension ease-in-out 800ms 400ms infinite;
 }
 
+#conteneur1 {
+  width: 87%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 85px 0px 100px 0px;
+  margin-bottom: 200px;
+  background: #fad7d3;
+  -webkit-box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+          box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+  color: #2e0e13;
+}
+
+#conteneur1 p {
+  margin: 0px 0px 30px 0px;
+}
+
+#conteneur1 h2 {
+  font-size: 4.5em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'Dancing Script';
+}
+
+#entete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#findepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+#findepage h2 {
+  font-size: 3em;
+  font-family: 'Dancing Script';
+  margin: 0px;
+  padding-left: 15px;
+}
+
+#findepage .fas {
+  font-size: 2.5em;
+  margin-top: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#f0443e), to(#f78f6a));
+  background: linear-gradient(to right, #f0443e, #f78f6a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.partie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.titre {
+  position: relative;
+  background: linear-gradient(to top, #2e0e13 0%, #2e0e13 2px, transparent 3px) no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size ease-in-out 500ms;
+  transition: background-size ease-in-out 500ms;
+}
+
+.titre:hover {
+  background-size: 100% 100%;
+}
+
+section h3 {
+  font-size: 2.2em;
+  font-weight: 200;
+  font-family: comic sans ms;
+}
+
+section .fas {
+  font-size: 6.75em;
+  background: -webkit-gradient(linear, left top, right top, from(#f0443e), to(#f78f6a));
+  background: linear-gradient(to right, #f0443e, #f78f6a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section img {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 288px;
+}
+
+#entree, #plat, #dessert {
+  width: 80%;
+}
+
+#entree, #plat {
+  margin-bottom: 50px;
+}
+
+article .plat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.7em;
+  letter-spacing: 1.4px;
+}
+
+article .text {
+  font-family: Bradley hand;
+}
+
 body {
   width: auto;
   margin: 0;
@@ -467,7 +615,7 @@ main h2 {
   font-family: Helvetica;
 }
 
-#conteneur1 {
+#conteneur2 {
   width: 87%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -481,16 +629,33 @@ main h2 {
           align-items: center;
   padding: 85px 0px 100px 0px;
   margin-bottom: 200px;
-  background: #fad7d3;
+  background: #fff5fe;
   -webkit-box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
           box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
 }
 
-#conteneur1 p {
+#conteneur2 p {
   margin: 0px 0px 30px 0px;
 }
 
-#entete {
+#conteneur2 h2 {
+  font-size: 4.5em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'georgla';
+  background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#8f5bfe));
+  background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+}
+
+#entree2, #plat2, #dessert2 {
+  width: 90%;
+}
+
+.description2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -503,79 +668,8 @@ main h2 {
           align-items: center;
 }
 
-#entete h2 {
-  font-size: 4.5em;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  font-family: Brush script MS;
-}
-
-#findepage {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 70px;
-}
-
-#findepage h2 {
-  font-size: 3em;
-  font-family: Brush script MS;
-  margin: 0px;
-  padding-left: 10px;
-}
-
-#findepage .fas {
-  font-size: 2.5em;
-  background: -webkit-gradient(linear, left top, right top, from(#f0443e), to(#f78f6a));
-  background: linear-gradient(to right, #f0443e, #f78f6a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.partie {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-section {
-  width: 80%;
-}
-
-section h3 {
-  font-size: 2.2em;
-  font-weight: 200;
-  font-family: comic sans ms;
-}
-
-section .fas {
-  font-size: 6.75em;
-  background: -webkit-gradient(linear, left top, right top, from(#f0443e), to(#f78f6a));
-  background: linear-gradient(to right, #f0443e, #f78f6a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-section img {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  width: 288px;
-}
-
-#entree, #plat {
-  margin-bottom: 50px;
-}
-
-article .plat {
+.description2 .plat2 {
+  width: 76%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -583,10 +677,54 @@ article .plat {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 1.7em;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.2px;
 }
 
-article .text {
-  font-family: Bradley hand;
+#entree2 {
+  color: #c67412;
+}
+
+#entree2 .titre2 {
+  position: relative;
+  background: linear-gradient(to top, #c67412 0%, #c67412 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 500ms;
+  transition: background-size 500ms;
+}
+
+#entree2 .titre2:hover {
+  background-size: 100% 100%;
+}
+
+#plat2 {
+  color: #a56799;
+}
+
+#plat2 .titre2 {
+  position: relative;
+  background: linear-gradient(to top, #a56799 0%, #a56799 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size  500ms;
+  transition: background-size  500ms;
+}
+
+#plat2 .titre2:hover {
+  background-size: 100% 100%;
+}
+
+#dessert2 {
+  color: #6e4ccc;
+}
+
+#dessert2 .titre2 {
+  position: relative;
+  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size  500ms;
+  transition: background-size  500ms;
+}
+
+#dessert2 .titre2:hover {
+  background-size: 100% 100%;
 }
 /*# sourceMappingURL=style.css.map */

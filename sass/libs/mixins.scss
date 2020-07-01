@@ -11,3 +11,13 @@
     display: flex;
 
 }
+
+@mixin surligne($color){
+    position: relative;
+    background: linear-gradient(to top, $colorTextMenu1 0%, $colorTextMenu1 3px, transparent 4px) no-repeat;
+    background-size: 0% 100%;
+    transition: background-size ease-in-out 500ms;
+    &:hover{
+      background-size:100% 100% ;
+    }
+    }

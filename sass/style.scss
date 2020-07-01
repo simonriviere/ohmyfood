@@ -4,12 +4,14 @@
 @import "libs/colors.scss"; 
 @import"libs/keyframes.scss";
 @import"libs/styleIndex.scss";
-
+@import"libs/menu1.scss";
+@import"libs/menu2.scss";
 body{
   width: auto;
   margin: 0;
   padding: 0;
 }
+
 h1, h2, h3, h4, h5, h6{
   text-decoration: none ;
 }
@@ -71,89 +73,82 @@ padding-top: 40px;
   } 
 }
 
-#conteneur1{  
+
+#conteneur2{  
   width: 87%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 85px 0px 100px 0px;
   margin-bottom: 200px;
-  background: $colorFondMenu1;
+  background: $colorBackMenu2;
   box-shadow:1px 1px 25px rgba(214, 214, 214, 0.932);
   p{
     margin: 0px 0px 30px 0px;
   }
-}
-#entete{
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
   h2{
     font-size: 4.5em;
     margin-top:20px;
     margin-bottom: 40px;
-    font-family: Brush script MS ;
-  }
-}
-#findepage{
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-  h2{
-    font-size: 3em;    
-    font-family: Brush script MS ;
-    margin:0px;
-    padding-left: 10px;
-  }
-  .fas{ 
-    font-size:2.5em;
-    background:linear-gradient(to right, #f0443e, #f78f6a);
+    font-family: 'georgla';
+    background:linear-gradient(to bottom right, $colorTextMenu2a, $colorTextMenu2b);
     background-clip: text; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: 4px;
   }
 }
-.partie{
+#entree2, #plat2, #dessert2{
+  width: 90%;
+}
+.description2{
   display: flex;
-  justify-content: space-between;
-}
-
-section{
-  width: 80%;
-
-  h3{
-    font-size: 2.2em;
-    font-weight: 200;
-    font-family: comic sans ms;
-  }
-  .fas{ 
-    font-size: 6.75em;
-    background:linear-gradient(to right, #f0443e, #f78f6a);
-    background-clip: text; 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  img{
-    justify-content: start;
-    width: 288px;
-  }
- 
-}
- #entree, #plat{
-    margin-bottom: 50px;
-  }
-article{
-
-  .plat{
+  flex-direction: column;
+  align-items: center;
+  .plat2{
+    width: 76%;
     display: flex;
     justify-content: space-between;
     font-size: 1.7em;
-    letter-spacing: 1.4px;
-  }
-  .text{
-    font-family: Bradley hand;
-   
+    letter-spacing: 1.2px;
   }
 
+} 
+
+#entree2{
+    color: $colorEntreeMenu2;
+  .titre2{
+    position: relative;
+    background: linear-gradient(to top, $colorEntreeMenu2 0%, $colorEntreeMenu2 3px, transparent 4px) no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 500ms;
+      &:hover{
+        background-size:100% 100% ;
+      }
+  }
 }
-  
+#plat2{
+  color: $colorPlatMenu2;
+  .titre2{
+  position: relative;
+  background: linear-gradient(to top, $colorPlatMenu2 0%, $colorPlatMenu2 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size  500ms;
+    &:hover{
+    background-size:100% 100% ;
+    }
+  }
+}
+#dessert2{
+  color:$colorDessertMenu2;
+  .titre2{
+  position: relative;
+  background: linear-gradient(to top, $colorDessertMenu2 0%, $colorDessertMenu2 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size  500ms;
+    &:hover{
+    background-size:100% 100% ;
+    }
+  }
+}
+
