@@ -326,8 +326,8 @@
   font-family: 'Kaushan Script';
   font-size: 2.9em;
   padding-right: 10px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#3d9339), to(#d2fea8));
-  background: linear-gradient(to bottom right, #3d9339, #d2fea8);
+  background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#beff7f));
+  background: linear-gradient(to bottom right, #3d923a, #beff7f);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -741,6 +741,95 @@ article .text {
 }
 
 .entree3__titre:hover, .plat3__titre:hover, .dessert3__titre:hover {
+  background-size: 100% 100%;
+}
+
+#conteneur4 {
+  width: 87%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 85px 0px 180px 0px;
+  margin-bottom: 200px;
+  background: #fdfffd;
+  -webkit-box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+          box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+}
+
+#conteneur4 p {
+  margin: 0px 0px 30px 0px;
+}
+
+#conteneur4 h2 {
+  font-size: 4.5em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  font-family: 'Kaushan Script';
+  background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#beff7f));
+  background: linear-gradient(to bottom right, #3d923a, #beff7f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+}
+
+#conteneur4 h3 {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+  font-size: 2.3em;
+  font-weight: 200;
+}
+
+.entree4, .plat4, .dessert4 {
+  width: 90%;
+}
+
+.description4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.description4 .plat4 {
+  width: 82%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.7em;
+}
+
+.description4 .plat4__text {
+  font-family: Bradley hand;
+}
+
+.entree4__titre, .plat4__titre, .dessert4__titre {
+  position: relative;
+  background: linear-gradient(to top, black 0%, black 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size  500ms;
+  transition: background-size  500ms;
+}
+
+.entree4__titre:hover, .plat4__titre:hover, .dessert4__titre:hover {
   background-size: 100% 100%;
 }
 

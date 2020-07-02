@@ -3,8 +3,8 @@
 @import "libs/fonts.scss";
 @import "libs/colors.scss"; 
 @import"libs/keyframes.scss";
-@import"libs/styleIndex.scss";
-@import"libs/menu1.scss";
+@import"style/index.scss";
+@import"style/menu.scss";
 body{
   width: auto;
   margin: 0;
@@ -71,6 +71,4 @@ padding-top: 40px;
     font-family: Helvetica;
   } 
 }
-
-
 
