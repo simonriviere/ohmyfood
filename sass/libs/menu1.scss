@@ -81,8 +81,7 @@ article{
     letter-spacing: 1.4px;
   }
   .text{
-    font-family: Bradley hand;
-    
+    font-family: Bradley hand;   
   }
 }
     
@@ -195,6 +194,9 @@ article{
     justify-content: space-between;
     font-size: 1.7em;
     letter-spacing: 1.2px;
+    &__text{
+      font-family: Bradley hand;
+    }
   }
 } 
 .entree3, .plat3, .dessert3{
