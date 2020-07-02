@@ -13,13 +13,12 @@
    }
  
  $shake-intensite:1%;
- 
-   @keyframes headshake{
-     25%{
-       transform: translateX($shake-intensite);
-     }
-     75%{
-       transform: translateX(-$shake-intensite);
-     }
-   }
+@keyframes headshake{
+  25%{
+    transform: translateX($shake-intensite);
+  }
+  75%{
+    transform: translateX(-$shake-intensite);
+  }
+}
 

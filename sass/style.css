@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* montserrat-regular - latin */
 /* dancing-script-regular - latin */
 @font-face {
@@ -81,6 +82,8 @@
   /* Legacy iOS */
 }
 
+/*background index*/
+/*menu1*/
 @-webkit-keyframes ptsSuspension {
   0% {
     -webkit-transform: translateY(10px);
@@ -95,7 +98,6 @@
             transform: translateY(10px);
   }
 }
-
 @keyframes ptsSuspension {
   0% {
     -webkit-transform: translateY(10px);
@@ -251,14 +253,14 @@
 }
 
 #menu2 h2 {
-  font-weight: 100;
-  font-family: 'Croissant One';
-  font-size: 1.8em;
-  background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#8f5bfe));
-  background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e38a12), to(#8f5bfe));
+  background: linear-gradient(to bottom, #e38a12, #8f5bfe);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 100;
+  font-family: 'Croissant One';
+  font-size: 1.8em;
 }
 
 #menu2 p {
@@ -288,8 +290,8 @@
   font-family: 'Dancing Script';
   padding-left: 12px;
   font-size: 3.1em;
-  background: -webkit-gradient(linear, left top, right bottom, from(#0431df), to(#0887fb));
-  background: linear-gradient(to bottom right, #0431df, #0887fb);
+  background: -webkit-gradient(linear, left top, right bottom, from(#001ed9), to(#1a91fb));
+  background: linear-gradient(to bottom right, #001ed9, #1a91fb);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -386,6 +388,20 @@ button span:nth-child(3) {
           animation: ptsSuspension ease-in-out 800ms 400ms infinite;
 }
 
+/*général*/
+.intitulé {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*Menu 1 */
 #conteneur1 {
   width: 87%;
   display: -webkit-box;
@@ -415,6 +431,12 @@ button span:nth-child(3) {
   margin-top: 20px;
   margin-bottom: 40px;
   font-family: 'Dancing Script';
+}
+
+#conteneur1 h3 {
+  font-size: 2.2em;
+  font-weight: 200;
+  font-family: comic sans ms;
 }
 
 #entete {
@@ -457,31 +479,16 @@ button span:nth-child(3) {
   -webkit-text-fill-color: transparent;
 }
 
-.partie {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.titre {
+.entree1__titre, .plat1__titre, .dessert1__titre {
   position: relative;
-  background: linear-gradient(to top, #2e0e13 0%, #2e0e13 2px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #2e0e13 0%, #2e0e13 3px, transparent 4px) no-repeat;
   background-size: 0% 100%;
-  -webkit-transition: background-size ease-in-out 500ms;
-  transition: background-size ease-in-out 500ms;
+  -webkit-transition: background-size  500ms;
+  transition: background-size  500ms;
 }
 
-.titre:hover {
+.entree1__titre:hover, .plat1__titre:hover, .dessert1__titre:hover {
   background-size: 100% 100%;
-}
-
-section h3 {
-  font-size: 2.2em;
-  font-weight: 200;
-  font-family: comic sans ms;
 }
 
 section .fas {
@@ -500,11 +507,11 @@ section img {
   width: 288px;
 }
 
-#entree, #plat, #dessert {
+.entree1, .plat1, .dessert1 {
   width: 80%;
 }
 
-#entree, #plat {
+.entree1, .plat1 {
   margin-bottom: 50px;
 }
 
@@ -521,6 +528,128 @@ article .plat {
 
 article .text {
   font-family: Bradley hand;
+}
+
+/* menu 2*/
+#conteneur2 {
+  width: 87%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 85px 0px 180px 0px;
+  margin-bottom: 200px;
+  background: #fff5fe;
+  -webkit-box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+          box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+}
+
+#conteneur2 p {
+  margin: 0px 0px 30px 0px;
+}
+
+#conteneur2 h2 {
+  font-size: 4.5em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'georgla';
+  background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#8f5bfe));
+  background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+}
+
+#conteneur2 h3 {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-size: 2.5em;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.entree2, .plat2, .dessert2 {
+  width: 90%;
+}
+
+.description2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.description2 .plat2 {
+  width: 76%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.7em;
+  letter-spacing: 1.2px;
+}
+
+.entree2 {
+  color: #c67412;
+}
+
+.entree2__titre {
+  position: relative;
+  background: linear-gradient(to top, #c67412 0%, #c67412 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size  500ms;
+  transition: background-size  500ms;
+}
+
+.entree2__titre:hover {
+  background-size: 100% 100%;
+}
+
+.plat2 {
+  color: #a56799;
+}
+
+.plat2__titre {
+  position: relative;
+  background: linear-gradient(to top, #a56799 0%, #a56799 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size  500ms;
+  transition: background-size  500ms;
+}
+
+.plat2__titre:hover {
+  background-size: 100% 100%;
+}
+
+.dessert2 {
+  color: #6e4ccc;
+}
+
+.dessert2__titre {
+  position: relative;
+  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size  500ms;
+  transition: background-size  500ms;
+}
+
+.dessert2__titre:hover {
+  background-size: 100% 100%;
 }
 
 body {
@@ -613,118 +742,5 @@ main {
 main h2 {
   font-size: 3.7em;
   font-family: Helvetica;
-}
-
-#conteneur2 {
-  width: 87%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 85px 0px 100px 0px;
-  margin-bottom: 200px;
-  background: #fff5fe;
-  -webkit-box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
-          box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
-}
-
-#conteneur2 p {
-  margin: 0px 0px 30px 0px;
-}
-
-#conteneur2 h2 {
-  font-size: 4.5em;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  font-family: 'georgla';
-  background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#8f5bfe));
-  background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 4px;
-}
-
-#entree2, #plat2, #dessert2 {
-  width: 90%;
-}
-
-.description2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.description2 .plat2 {
-  width: 76%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-size: 1.7em;
-  letter-spacing: 1.2px;
-}
-
-#entree2 {
-  color: #c67412;
-}
-
-#entree2 .titre2 {
-  position: relative;
-  background: linear-gradient(to top, #c67412 0%, #c67412 3px, transparent 4px) no-repeat;
-  background-size: 0% 100%;
-  -webkit-transition: background-size 500ms;
-  transition: background-size 500ms;
-}
-
-#entree2 .titre2:hover {
-  background-size: 100% 100%;
-}
-
-#plat2 {
-  color: #a56799;
-}
-
-#plat2 .titre2 {
-  position: relative;
-  background: linear-gradient(to top, #a56799 0%, #a56799 3px, transparent 4px) no-repeat;
-  background-size: 0% 100%;
-  -webkit-transition: background-size  500ms;
-  transition: background-size  500ms;
-}
-
-#plat2 .titre2:hover {
-  background-size: 100% 100%;
-}
-
-#dessert2 {
-  color: #6e4ccc;
-}
-
-#dessert2 .titre2 {
-  position: relative;
-  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 3px, transparent 4px) no-repeat;
-  background-size: 0% 100%;
-  -webkit-transition: background-size  500ms;
-  transition: background-size  500ms;
-}
-
-#dessert2 .titre2:hover {
-  background-size: 100% 100%;
 }
 /*# sourceMappingURL=style.css.map */

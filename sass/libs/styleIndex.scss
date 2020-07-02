@@ -32,10 +32,7 @@
     background: $colorBackMenu1;
     i{
         font-size: 1.8em ;
-        background:linear-gradient(to right, #f0443e, #f78f6a);
-        background-clip: text; 
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include degrade (right, #f0443e, #f78f6a);
     }
     h2{
         display: flex;
@@ -54,21 +51,19 @@
         color: $colorTextMenu1;
     }
 }
-  
+
 #menu2{
     @extend %shadow;
     @include carreMenu;
     margin-left: 102px;
     margin-right:161px;
     background:$colorBackMenu2 ;
-    h2{
+
+    h2{ 
+        @include degrade (bottom , $colorTextMenu2a, $colorTextMenu2b);
         font-weight: 100;
         font-family: 'Croissant One';
         font-size: 1.8em;
-        background:linear-gradient(to bottom right, $colorTextMenu2a, $colorTextMenu2b);
-        background-clip: text; 
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 
     p{
@@ -88,10 +83,7 @@
         font-family: 'Dancing Script';
         padding-left: 12px;
         font-size: 3.1em;
-        background:linear-gradient(to bottom right, $colorTextMenu3a, $colorTextMenu3b);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include degrade (bottom right, $colorTextMenu3a, $colorTextMenu3b);
     }
     p{
         text-align: center;
@@ -112,10 +104,7 @@
       font-family: 'Kaushan Script';
       font-size :2.9em;
       padding-right: 10px;
-      background:linear-gradient(to bottom right, $colorTextMenu4a, $colorTextMenu4b);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      @include degrade(bottom right, $colorTextMenu4a, $colorTextMenu4b)
     }
   
     p{

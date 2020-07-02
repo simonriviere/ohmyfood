@@ -6,18 +6,18 @@
     height : 760px;
 
 }
-
-@mixin ligne{
-    display: flex;
-
+@mixin degrade($sens, $colour1, $colour2){
+    background:linear-gradient(to $sens, $colour1, $colour2);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
-@mixin surligne($color){
+@mixin surligne($colour){
     position: relative;
-    background: linear-gradient(to top, $colorTextMenu1 0%, $colorTextMenu1 3px, transparent 4px) no-repeat;
+    background: linear-gradient(to top, $colour 0%, $colour 3px, transparent 4px) no-repeat;
     background-size: 0% 100%;
-    transition: background-size ease-in-out 500ms;
-    &:hover{
-      background-size:100% 100% ;
-    }
-    }
+    transition: background-size  500ms;
+        &:hover{
+        background-size:100% 100% ;
+        }
+}
