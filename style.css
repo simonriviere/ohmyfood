@@ -274,7 +274,7 @@ button span:nth-child(3) {
 }
 
 /*général*/
-.intitulé {
+.intitule {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -653,6 +653,16 @@ main {
 main h2 {
   font-size: 3.7em;
   font-family: Helvetica;
+}
+
+#mentions {
+  margin: 20px 40px 200px 40px;
+}
+#mentions h3 {
+  font-size: 2em;
+}
+#mentions p {
+  font-size: 1.3em;
 }
 
 /*# sourceMappingURL=style.css.map */

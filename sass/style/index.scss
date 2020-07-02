@@ -58,14 +58,12 @@
     margin-left: 102px;
     margin-right:161px;
     background:$colorBackMenu2 ;
-
     h2{ 
         @include degrade (bottom , $colorTextMenu2a, $colorTextMenu2b);
         font-weight: 100;
         font-family: 'Croissant One';
         font-size: 1.8em;
     }
-
     p{
         color : $colorMenu2;
         text-align: center;
