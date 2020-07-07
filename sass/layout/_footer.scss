@@ -21,4 +21,15 @@ footer{
           animation:headshake 400ms infinite;
         }
       }  
+      @include tailleTablette(1em, 1em,1.5em);
+      @media #{$large-down}{
+          height: 90px;
+      }
+      @media #{$medium-down}{
+          a{
+              padding-left: 10px;
+              padding-right: 10px;
+              font-size : 1.2em;
+          }
+      }
     }

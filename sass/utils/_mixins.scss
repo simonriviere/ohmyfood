@@ -21,3 +21,18 @@
         background-size:100% 100% ;
         }
 }
+
+@mixin tailleTablette($tailleH, $tailleP, $tailleA){
+    @media #{$large-down}{
+        h2{
+            font-size: $tailleH;
+        }
+        p{
+            font-size: $tailleP;
+        }
+        a{
+            font-size: $tailleA;
+        }
+    }
+}
+

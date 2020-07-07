@@ -114,7 +114,11 @@ header h1 {
 header a {
   color: #fdcb46;
 }
-
+@media only screen and (max-width:1023px) {
+  header {
+    height: 150px;
+  }
+}
 footer {
   position: fixed;
   display: flex;
@@ -135,6 +139,29 @@ footer a {
 footer p:hover {
   animation: headshake 400ms infinite;
 }
+@media only screen and (max-width:1023px) {
+  footer h2 {
+    font-size: 1em;
+  }
+  footer p {
+    font-size: 1em;
+  }
+  footer a {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width:1023px) {
+  footer {
+    height: 90px;
+  }
+}
+@media only screen and (max-width:480px) {
+  footer a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+  }
+}
 
 #conteneur {
   display: flex;
@@ -147,11 +174,12 @@ footer p:hover {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 50px;
+    height: 500px;
   }
 }
 @media only screen and (max-width:480px) {
   #conteneur section {
-    width: 350px;
+    width: 320px;
     height: 400px;
   }
 }
@@ -224,6 +252,17 @@ footer p:hover {
   font-family: "bradley hand";
   color: #2e0e13;
 }
+@media only screen and (max-width:1023px) {
+  #menu1 h2 {
+    font-size: 2em;
+  }
+  #menu1 p {
+    font-size: 2.7em;
+  }
+  #menu1 a {
+    font-size: 1em;
+  }
+}
 
 #menu2 {
   display: flex;
@@ -250,8 +289,14 @@ footer p:hover {
   font-size: 3em;
 }
 @media only screen and (max-width:1023px) {
-  #menu2 {
-    margin-top: 50px;
+  #menu2 h2 {
+    font-size: 2em;
+  }
+  #menu2 p {
+    font-size: 2.5em;
+  }
+  #menu2 a {
+    font-size: 1em;
   }
 }
 
@@ -280,6 +325,17 @@ footer p:hover {
   color: #0887fb;
   font-family: bradley hand;
 }
+@media only screen and (max-width:1023px) {
+  #menu3 h2 {
+    font-size: 2em;
+  }
+  #menu3 p {
+    font-size: 2.5em;
+  }
+  #menu3 a {
+    font-size: 1em;
+  }
+}
 
 #menu4 {
   display: flex;
@@ -306,6 +362,17 @@ footer p:hover {
   font-size: 3em;
   color: #72bf56;
   font-family: bradley hand;
+}
+@media only screen and (max-width:1023px) {
+  #menu4 h2 {
+    font-size: 2em;
+  }
+  #menu4 p {
+    font-size: 2.7em;
+  }
+  #menu4 a {
+    font-size: 1em;
+  }
 }
 
 button {
@@ -363,7 +430,7 @@ button span:nth-child(3) {
 }
 @media only screen and (max-width:480px) {
   button {
-    width: 350px;
+    width: 320px;
     font-size: 2.5em;
   }
 }
@@ -373,6 +440,22 @@ button span:nth-child(3) {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+main h2 {
+  font-size: 3.7em;
+  font-family: Helvetica;
+}
+@media only screen and (max-width:480px) {
+  main h2 {
+    font-size: 2em;
+  }
 }
 
 /*Menu 1 */
@@ -407,15 +490,31 @@ button span:nth-child(3) {
   font-weight: 200;
   font-family: comic sans ms;
 }
-
-.entree1__titre, .plat1__titre, .dessert1__titre {
-  position: relative;
-  background: linear-gradient(to top, #2e0e13 0%, #2e0e13 3px, transparent 4px) no-repeat;
-  background-size: 0% 100%;
-  transition: background-size 500ms;
+@media only screen and (max-width:1023px) {
+  #conteneur1 h2 {
+    font-size: 3.5em;
+  }
+  #conteneur1 img {
+    width: 100px;
+  }
 }
-.entree1__titre:hover, .plat1__titre:hover, .dessert1__titre:hover {
-  background-size: 100% 100%;
+@media only screen and (max-width:480px) {
+  #conteneur1 {
+    width: 95%;
+  }
+  #conteneur1 h2 {
+    font-size: 2em;
+  }
+  #conteneur1 h3 {
+    margin-top: 0px;
+    font-size: 1.4em;
+  }
+  #conteneur1 img {
+    width: 60px;
+  }
+  #conteneur1 p {
+    margin: 0px 0px 0px 15px;
+  }
 }
 
 #findepage {
@@ -437,6 +536,14 @@ button span:nth-child(3) {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width:480px) {
+  #findepage h2 {
+    font-size: 2em;
+  }
+  #findepage .fas {
+    margin-top: 0px;
+  }
+}
 
 section .fas {
   font-size: 6.75em;
@@ -453,9 +560,28 @@ section img {
 .entree1, .plat1, .dessert1 {
   width: 80%;
 }
+.entree1__titre, .plat1__titre, .dessert1__titre {
+  position: relative;
+  background: linear-gradient(to top, #2e0e13 0%, #2e0e13 3px, transparent 4px) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 500ms;
+}
+.entree1__titre:hover, .plat1__titre:hover, .dessert1__titre:hover {
+  background-size: 100% 100%;
+}
+@media only screen and (max-width:480px) {
+  .entree1, .plat1, .dessert1 {
+    width: 95%;
+  }
+}
 
 .entree1, .plat1 {
   margin-bottom: 50px;
+}
+@media only screen and (max-width:480px) {
+  .entree1, .plat1 {
+    margin-bottom: 0px;
+  }
 }
 
 article .plat {
@@ -466,6 +592,14 @@ article .plat {
 }
 article .text {
   font-family: Bradley hand;
+}
+@media only screen and (max-width:480px) {
+  article .plat {
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 1.4em;
+    margin-bottom: 40px;
+  }
 }
 
 /* menu 2*/
@@ -500,9 +634,48 @@ article .text {
   font-weight: 100;
   letter-spacing: 2px;
 }
+@media only screen and (max-width:1023px) {
+  #conteneur2 {
+    padding: 40px 0px 50px 0px;
+  }
+  #conteneur2 h2 {
+    font-size: 3.5em;
+  }
+  #conteneur2 h3 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 2em;
+  }
+  #conteneur2 img {
+    width: 100px;
+  }
+}
+@media only screen and (max-width:480px) {
+  #conteneur2 {
+    width: 95%;
+  }
+  #conteneur2 h2 {
+    font-size: 1.8em;
+  }
+  #conteneur2 h3 {
+    font-size: 1.5em;
+  }
+  #conteneur2 img {
+    width: 60px;
+  }
+  #conteneur2 p {
+    margin: 0px 0px 0px 15px;
+  }
+}
 
 .entree2, .plat2, .dessert2 {
   width: 90%;
+}
+@media only screen and (max-width:480px) {
+  .entree2, .plat2, .dessert2 {
+    width: 95%;
+  }
 }
 
 .description2 {
@@ -516,6 +689,20 @@ article .text {
   justify-content: space-between;
   font-size: 1.7em;
   letter-spacing: 1.2px;
+}
+@media only screen and (max-width:1023px) {
+  .description2 .plat2 {
+    width: 90%;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width:480px) {
+  .description2 .plat2 {
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 1.4em;
+    margin-bottom: 40px;
+  }
 }
 
 .entree2 {
@@ -696,17 +883,6 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 40px;
-}
-main h2 {
-  font-size: 3.7em;
-  font-family: Helvetica;
 }
 
 #mentions {

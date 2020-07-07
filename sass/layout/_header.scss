@@ -16,5 +16,11 @@ header{
     a{
       color:$colorTextPrincipal;
     }
+    @media #{$large-down}{
+    height: 150px;    
+    }
+    @media #{$medium-down}{
+
+    }
   }
   
