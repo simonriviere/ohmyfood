@@ -95,11 +95,65 @@
     transform: translateX(-1%);
   }
 }
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 235px;
+  background: #569c87;
+  border-bottom: 2px solid #a1c181;
+}
+header h1 {
+  font-family: "Montserrat";
+  font-size: 4.7em;
+  margin: 0px;
+  text-align: center;
+  color: #fdcb46;
+}
+header a {
+  color: #fdcb46;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  background-color: #569c87;
+  border-top: 2px solid #a1c181;
+  bottom: 0px;
+}
+footer a {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 3em;
+  color: #fdcb46;
+}
+footer p:hover {
+  animation: headshake 400ms infinite;
+}
+
 #conteneur {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 200px;
+}
+@media only screen and (max-width:1023px) {
+  #conteneur section {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width:480px) {
+  #conteneur section {
+    width: 350px;
+    height: 400px;
+  }
 }
 
 #ligne1 {
@@ -107,11 +161,23 @@
   justify-content: center;
   margin-top: 100px;
 }
+@media only screen and (max-width:1023px) {
+  #ligne1 {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+}
 
 #ligne2 {
   display: flex;
   justify-content: center;
   margin-top: 90px;
+}
+@media only screen and (max-width:1023px) {
+  #ligne2 {
+    flex-direction: column;
+    margin-top: 0px;
+  }
 }
 
 #menu4, #menu3, #menu2, #menu1 {
@@ -182,6 +248,11 @@
   color: #c77412;
   text-align: center;
   font-size: 3em;
+}
+@media only screen and (max-width:1023px) {
+  #menu2 {
+    margin-top: 50px;
+  }
 }
 
 #menu3 {
@@ -258,6 +329,12 @@ button span {
   margin-left: 5px;
   animation: ptsSuspension ease-in-out 800ms infinite;
 }
+@media only screen and (max-width:480px) {
+  button span {
+    width: 8px;
+    height: 8px;
+  }
+}
 button span:nth-child(2) {
   background: #fdcb46;
   border-radius: 50px;
@@ -265,12 +342,30 @@ button span:nth-child(2) {
   height: 15px;
   animation: ptsSuspension ease-in-out 800ms 200ms infinite;
 }
+@media only screen and (max-width:480px) {
+  button span:nth-child(2) {
+    width: 8px;
+    height: 8px;
+  }
+}
 button span:nth-child(3) {
   background: #fdcb46;
   border-radius: 50px;
   width: 15px;
   height: 15px;
   animation: ptsSuspension ease-in-out 800ms 400ms infinite;
+}
+@media only screen and (max-width:480px) {
+  button span:nth-child(3) {
+    width: 8px;
+    height: 8px;
+  }
+}
+@media only screen and (max-width:480px) {
+  button {
+    width: 350px;
+    font-size: 2.5em;
+  }
 }
 
 /*général*/
@@ -601,47 +696,6 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 235px;
-  background: #569c87;
-  border-bottom: 2px solid #a1c181;
-}
-header h1 {
-  font-family: "Montserrat";
-  font-size: 4.7em;
-  margin: 0px;
-  text-align: center;
-  color: #fdcb46;
-}
-header a {
-  color: #fdcb46;
-}
-
-footer {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 120px;
-  align-items: center;
-  background-color: #569c87;
-  border-top: 2px solid #a1c181;
-  bottom: 0px;
-}
-footer a {
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 3em;
-  color: #fdcb46;
-}
-footer p:hover {
-  animation: headshake 400ms infinite;
 }
 
 main {

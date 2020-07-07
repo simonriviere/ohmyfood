@@ -4,16 +4,36 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 200px; 
+    section{
+        @media #{$large-down}{
+            margin-left:0px;
+            margin-right: 0px; 
+            margin-top: 50px;
+        }
+        @media #{$medium-down}{
+            width: 350px;
+            height: 400px;
+        }
+    }
 }
 #ligne1{
     display: flex;
     justify-content: center;    
     margin-top:100px;
+    @media #{$large-down}{
+        flex-direction: column;
+        margin-top: 0px;
+    }
 }
+
 #ligne2{
-  display: flex;
-  justify-content: center;
-  margin-top:90px;
+    display: flex;
+    justify-content: center;
+    margin-top:90px;
+    @media #{$large-down}{
+       flex-direction: column;
+       margin-top: 0px;
+    }  
 }
 %shadow{
     box-shadow:1px 1px 15px rgba(214, 214, 214, 0.74);
@@ -50,6 +70,7 @@
         font-family: 'bradley hand';
         color: $colorTextMenu1;
     }
+
 }
 
 #menu2{
@@ -68,6 +89,9 @@
         color : $colorMenu2;
         text-align: center;
         font-size: 3em;
+    }
+    @media #{$large-down}{
+       margin-top: 50px;
     }
 }
   
@@ -111,8 +135,7 @@
       color:$colorMenu4;
       font-family:bradley hand ;
     }
-}
-  
+}  
 button{ 
     display: flex;
     justify-content: center;
@@ -132,6 +155,10 @@ button{
       height: 15px;
       margin-left: 5px;
       animation: ptsSuspension ease-in-out 800ms infinite;
+      @media #{$medium-down}{
+        width: 8px;
+        height: 8px;
+    }
     }
     span:nth-child(2){
       background: $colorTextPrincipal;
@@ -139,12 +166,24 @@ button{
       width: 15px;
       height: 15px;
       animation: ptsSuspension ease-in-out 800ms 200ms infinite ;
+      @media #{$medium-down}{
+        width: 8px;
+        height: 8px;
+    }
     }
     span:nth-child(3){
-      background: $colorTextPrincipal;
-      border-radius: 50px;
-      width: 15px;
-      height: 15px;
-      animation: ptsSuspension ease-in-out 800ms 400ms infinite;
-      }
+        background: $colorTextPrincipal;
+        border-radius: 50px;
+        width: 15px;
+        height: 15px;
+        animation: ptsSuspension ease-in-out 800ms 400ms infinite;
+        @media #{$medium-down}{
+            width: 8px;
+            height: 8px;
+        }
+    }
+    @media #{$medium-down}{
+        width: 350px;
+        font-size: 2.5em;
+    }
 }
