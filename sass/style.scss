@@ -1,10 +1,10 @@
-@import "libs/responsive.scss";
-@import "libs/mixins.scss";
-@import "libs/fonts.scss";
-@import "libs/colors.scss"; 
-@import"libs/keyframes.scss";
-@import"style/index.scss";
-@import"style/menu.scss";
+@import "base/colors.scss"; 
+@import "base/fonts.scss";
+@import "utils/mixins.scss";
+@import"utils/keyframes.scss";
+@import"pages/index.scss";
+@import"pages/menu.scss";
+@import"utils/responsive.scss";
 body{
   width: auto;
   margin: 0;
