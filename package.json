@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass":"sass --watch sass/style.scss:style.css ",
-    "prefix": "postcss style.css --use autoprefixer -d pages/"
+    "build": "tsc -p ./src",
+    "sass": "sass --watch sass/style.scss:style.css -w",
+    "prefix": "postcss style.css --use autoprefixer -d "
   },
   "repository": {
     "type": "git",
@@ -13,9 +14,12 @@
   },
   "author": "",
   "license": "ISC",
-  "browserslist":"last 4 versions",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/simonriviere/ohmyfood/issues"
   },
-  "homepage": "https://github.com/simonriviere/ohmyfood#readme"
+  "homepage": "https://github.com/simonriviere/ohmyfood#readme",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
 }

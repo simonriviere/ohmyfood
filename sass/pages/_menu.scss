@@ -16,27 +16,20 @@ main{
     } 
     @media #{$medium-down}{
       h2{
-        font-size: 2em;
+        font-size: 1.8em;
+        text-align: center;
       }
     }
   }
   
-/*Menu 1 */
-#entete{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}  
-#conteneur1{  
+.menu{
   width: 87%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 85px 0px 100px 0px;
   margin-bottom: 200px;
-  background: $colorFondMenu1;
   box-shadow:1px 1px 25px rgba(214, 214, 214, 0.932);
-  color:$colorTextMenu1; 
   p{
     margin: 0px 0px 30px 0px;
   }
@@ -44,13 +37,14 @@ main{
     font-size: 4.5em;
     margin-top:20px;
     margin-bottom: 40px;
-    font-family: 'Dancing Script';
   } 
   h3{
-    font-size: 2.2em;
+    margin-top:100px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+    font-size: 2.4em;
     font-weight: 200;
-    font-family: comic sans ms;
-  }
+  }  
   @media #{$large-down}{
     h2{
         font-size: 3.5em;
@@ -58,25 +52,84 @@ main{
     img{
       width: 100px;
     }
+    h3{
+      font-size: 2.2em;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
   }
   @media #{$medium-down}{
+    padding: 55px 0px 100px 0px;
+
     width: 95%;
     h2{
-      font-size: 2em;
+      text-align: center;
+      font-size: 2.2em;
     }
     h3{
-      margin-top: 0px;
-      font-size: 1.4em;
+      font-size: 1.5em;
     }
     img{
       width: 60px;
     }
     p{
-      margin: 0px 0px 0px 15px;
+      margin: 0px 0px 10px 15px;
     }
   }
-}  
+}
+#carte{
+  width: 90%;
+  @media #{$medium-down}{
+    width: 95%;
+  }
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+.ligneDuMenu{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7em;
+
+@media #{$large-down}{
+  width: 90%;
+  font-size: 1.5em;
+
+}
+@media #{$medium-down}{
+  flex-direction: column-reverse;
+  align-items: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}  
+}
+}
+
+/*Menu 1 */
+#entete{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}  
+#menu1{  
+  background: $colorFondMenu1;
+  color:$colorTextMenu1; 
+  h2{
+    font-family: 'Dancing Script';
+  } 
+  h3{
+    margin : 0px, 0px, 0px, 0px;
+    font-weight: 200;
+    font-family: comic sans ms;
+  }
+}  
+.ligneDuMenu1{
+  width: 100%;
+}
 #findepage{
   display: flex;
   justify-content: center;
@@ -112,132 +165,37 @@ section{
   }
 }
 .entree1, .plat1, .dessert1{
-  width: 80%;
   &__titre{
     @include surligne($colorTextMenu1);
   }
-  @media #{$medium-down}{
-    width: 95%;
-  }
+
 }
-.entree1, .plat1{
-  margin-bottom: 50px;
-  @media #{$medium-down}{
-  margin-bottom:0px;
-  }
-}
-article{
-  .plat{
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.7em;
-    letter-spacing: 1.4px;
-  }
+
+.description{
   .text{
-    font-family: Bradley hand;   
+    font-family: 'Bradley hand';   
   }
-  @media #{$medium-down}{
-    .plat{
-    flex-direction: column-reverse;
-    align-items: center;
-    font-size: 1.4em;
-    margin-bottom: 40px;
-    }
-  }
+
 }
     
 /* menu 2*/   
-#conteneur2{  
-  width: 87%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 85px 0px 180px 0px;
-  margin-bottom: 200px;
+#menu2{  
   background: $colorBackMenu2;
-  box-shadow:1px 1px 25px rgba(214, 214, 214, 0.932);
-  p{
-    margin: 0px 0px 30px 0px;
-  }
   h2{
-    font-size: 4.5em;
-    margin-top:20px;
-    margin-bottom: 30px;
     font-family: 'georgla';
     @include degrade (bottom right, $colorTextMenu2a, $colorTextMenu2b);
     letter-spacing: 4px;
   }
   h3{
-    margin-top:100px;
-    margin-bottom: 60px;
-    font-size: 2.5em;
     font-weight: 100;
-    letter-spacing: 2px;
-  }
-
-  @media #{$large-down}{
-    padding : 40px 0px 50px 0px ;
-    h2{
-        font-size: 3.5em;
-      }
-    h3{
-      text-align: center;
-      margin-top: 0px;
-      margin-bottom: 40px;
-      font-size: 2em;
-    }  
-    img{
-      width: 100px;
-    }
-  }
-  @media #{$medium-down}{
-    width: 95%;
-    h2{
-      font-size: 1.8em;
-    }
-    h3{
-      font-size: 1.5em;
-    }
-    img{
-      width: 60px;
-    }
-    p{
-      margin: 0px 0px 0px 15px;
-    }
   }
 }
-.entree2, .plat2, .dessert2{
-  width: 90%;
-  @media #{$medium-down}{
-    width: 95%;
-  }
-}
-.description2{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  .plat2{
-    width: 76%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.7em;
+.description{
+    .ligneDuMenu2{
     letter-spacing: 1.2px;
   }
-  @media #{$large-down}{
-    .plat2{
-      width: 90%;
-    font-size: 1.5em;
-
-  }}
-  @media #{$medium-down}{
-    .plat2{
-    flex-direction: column-reverse;
-    align-items: center;
-    font-size: 1.4em;
-    margin-bottom: 40px;
-    }
-  }
 } 
+
 .entree2{
     color: $colorEntreeMenu2;
   &__titre{
@@ -255,55 +213,32 @@ article{
   &__titre{
     @include surligne($colorDessertMenu2);
   }
+    .ligneDuMenu{
+      align-items: flex-start;
+    }
+
 }
 
 /*Menu 3*/
 
-#conteneur3{  
-  width: 87%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 85px 0px 180px 0px;
-  margin-bottom: 200px;
-  background: $colorBackMenu2;
-  box-shadow:1px 1px 25px rgba(214, 214, 214, 0.932);
-  p{
-    margin: 0px 0px 30px 0px;
-  }
+#menu3{  
+    background: $colorBackMenu2;
+
   h2{
-    font-size: 4.5em;
-    margin-top:20px;
-    margin-bottom: 30px;
-    padding-left : 10px;
     font-family: 'Dancing Script';
     @include degrade (bottom right, $colorTextMenu3a, $colorTextMenu3b);
     letter-spacing: 4px;
   }
   h3{
-    margin-top:100px;
-    margin-bottom: 60px;
-    letter-spacing: 2px;
-    font-size: 2.2em;
-    font-weight: 200;
-    font-family: comic sans ms;
+    font-family: 'comic sans ms';
   }
 }
-.entree3, .plat3, .dessert3{
-  width: 90%;
-}
-.description3{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.description{
   .plat3{
-    width: 76%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.7em;
     letter-spacing: 1.2px;
     &__text{
-      font-family: Bradley hand;
+      font-family: 'Bradley hand';
     }
   }
 } 
@@ -313,51 +248,16 @@ article{
   }
 }
 
-
-
-#conteneur4{  
-  width: 87%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 85px 0px 180px 0px;
-  margin-bottom: 200px;
+#menu4{  
   background: $colorBackMenu4;
-  box-shadow:1px 1px 25px rgba(214, 214, 214, 0.932);
-  p{
-    margin: 0px 0px 30px 0px;
-  }
   h2{
-    font-size: 4.5em;
-    margin-top:20px;
-    margin-bottom: 30px;
-    padding-left : 10px;
     font-family: 'Kaushan Script';
     @include degrade (bottom right, $colorTextMenu4a, $colorTextMenu4b);
     letter-spacing: 4px;
   }
-  h3{
-    margin-top:100px;
-    margin-bottom: 60px;
-    letter-spacing: 2px;
-    font-size: 2.3em;
-    font-weight: 200;
-
-  }
 }
-.entree4, .plat4, .dessert4{
-  width: 90%;
-}
-.description4{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.description{
   .plat4{
-    width: 82%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.7em;
-
     &__text{
       font-family: Bradley hand;
     }
