@@ -393,6 +393,7 @@ main {
     font-weight: 200; }
   @media only screen and (max-width: 1023px) {
     .menu h2 {
+      text-align: center;
       font-size: 3.5em; }
     .menu img {
       width: 100px; }
@@ -406,7 +407,6 @@ main {
       padding: 55px 0px 100px 0px;
       width: 95%; }
       .menu h2 {
-        text-align: center;
         font-size: 2.2em; }
       .menu h3 {
         font-size: 1.5em; }
@@ -437,9 +437,11 @@ main {
     @media only screen and (max-width: 480px) {
       .description .ligneDuMenu {
         flex-direction: column-reverse;
-        align-items: center;
-        font-size: 1.2em;
-        margin-bottom: 20px; } }
+        font-size: 1.1em;
+        text-align: center;
+        margin-bottom: 20px; }
+        .description .ligneDuMenu p {
+          margin-left: 0px; } }
 
 /*Menu 1 */
 #entete {
@@ -548,8 +550,6 @@ section img {
     transition: background-size  500ms; }
     .dessert2__titre:hover {
       background-size: 100% 100%; }
-  .dessert2 .ligneDuMenu {
-    align-items: flex-start; }
 
 /*Menu 3*/
 #menu3 {
@@ -562,6 +562,7 @@ section img {
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
   #menu3 h3 {
+    font-size: 1.4em;
     font-family: 'comic sans ms'; }
 
 .description .plat3 {
