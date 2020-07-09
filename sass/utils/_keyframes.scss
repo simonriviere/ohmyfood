@@ -3,15 +3,13 @@
       transform : translateY(10px);
     }
      50%{
-       transform: translateY(17px);
-      
+       transform: translateY(17px);    
      }
      100%{
        transform : translateY(10px);
-   
      }
    }
- $shake-intensite:1%;
+$shake-intensite:1%;
 @keyframes headshake{
   25%{
     transform: translateX($shake-intensite);

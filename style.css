@@ -138,7 +138,6 @@ footer {
 #conteneur {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-bottom: 200px; }
   @media only screen and (max-width: 1023px) {
     #conteneur section {
@@ -151,25 +150,16 @@ footer {
       width: 320px;
       height: 400px; } }
 
-#ligne1 {
+.ligne {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 100px; }
   @media only screen and (max-width: 1023px) {
-    #ligne1 {
+    .ligne {
       flex-direction: column;
       margin-top: 0px; } }
 
-#ligne2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 90px; }
-  @media only screen and (max-width: 1023px) {
-    #ligne2 {
-      flex-direction: column;
-      margin-top: 0px; } }
-
-#repas1, #repas2, #repas3, #repas4 {
+.repas {
   box-shadow: 1px 1px 15px rgba(214, 214, 214, 0.74); }
 
 .zoom {
@@ -178,31 +168,42 @@ footer {
     transform: scale(1.1);
     opacity: 0.6; }
 
-#repas1 {
+.repas {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 536px;
-  height: 760px;
-  margin-left: 160px;
+  height: 760px; }
+  .repas h2 {
+    font-weight: 100; }
+  .repas p {
+    text-align: center;
+    font-size: 3em; }
+  @media only screen and (max-width: 1023px) {
+    .repas h2 {
+      font-size: 2em; }
+    .repas p {
+      font-size: 2.5em; }
+    .repas a {
+      font-size: 1em; } }
+
+#repas1 {
   background: #fcdfdb; }
   #repas1 i {
     font-size: 1.8em;
-    background: -linear-gradient(to right, #f0443e, #f78f6a);
+    background: linear-gradient(to right, #f0443e, #f78f6a);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas1 h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 100;
     font-family: 'Devonshire';
     font-size: 2.6em;
     color: #3c1218; }
   #repas1 p {
     margin-top: 38px;
-    text-align: center;
-    font-size: 3em;
     font-family: 'bradley hand';
     color: #2e0e13; }
   @media only screen and (max-width: 1023px) {
@@ -214,52 +215,28 @@ footer {
       font-size: 1em; } }
 
 #repas2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 536px;
-  height: 760px;
-  margin-left: 102px;
-  margin-right: 161px;
   background: #fff5fe; }
   #repas2 h2 {
-    background: -linear-gradient(to bottom right, #e38a12, #8f5bfe);
+    background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 100;
     font-family: 'Croissant One';
     font-size: 1.8em; }
   #repas2 p {
-    color: #c77412;
-    text-align: center;
-    font-size: 3em; }
-  @media only screen and (max-width: 1023px) {
-    #repas2 h2 {
-      font-size: 2em; }
-    #repas2 p {
-      font-size: 2.5em; }
-    #repas2 a {
-      font-size: 1em; } }
+    color: #c77412; }
 
 #repas3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 536px;
-  height: 760px;
-  margin-left: 160px;
   background: #F9F9F9; }
   #repas3 h2 {
-    font-weight: 200;
     font-family: 'Dancing Script';
     padding-left: 12px;
     font-size: 2.8em;
-    background: -linear-gradient(to bottom right, #001ed9, #1a91fb);
+    background: linear-gradient(to bottom right, #001ed9, #1a91fb);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas3 p {
-    text-align: center;
-    font-size: 3em;
     color: #0887fb;
     font-family: 'bradley hand'; }
   @media only screen and (max-width: 1023px) {
@@ -271,25 +248,16 @@ footer {
       font-size: 1em; } }
 
 #repas4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 536px;
-  height: 760px;
-  margin-left: 102px;
-  margin-right: 161px;
   background: #fdfffd; }
   #repas4 h2 {
-    font-weight: 100;
     font-family: 'Kaushan Script';
     font-size: 2.9em;
     padding-right: 10px;
-    background: -linear-gradient(to bottom right, #3d923a, #beff7f);
+    background: linear-gradient(to bottom right, #3d923a, #beff7f);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas4 p {
-    text-align: center;
-    font-size: 3em;
     color: #72bf56;
     font-family: 'bradley hand'; }
   @media only screen and (max-width: 1023px) {
@@ -299,6 +267,10 @@ footer {
       font-size: 2.7em; }
     #repas4 a {
       font-size: 1em; } }
+
+.btn {
+  display: flex;
+  justify-content: center; }
 
 button {
   display: flex;
@@ -470,7 +442,8 @@ main {
   #findepage .fas {
     font-size: 2.5em;
     margin-top: 10px;
-    background: -linear-gradient(to right, #f0443e, #f78f6a);
+    background: linear-gradient(to right, #f0443e, #f78f6a);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   @media only screen and (max-width: 480px) {
@@ -481,7 +454,8 @@ main {
 
 section .fas {
   font-size: 6.75em;
-  background: -linear-gradient(to right, #f0443e, #f78f6a);
+  background: linear-gradient(to right, #f0443e, #f78f6a);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 section img {
@@ -504,7 +478,8 @@ section img {
   background: #fff5fe; }
   #menu2 h2 {
     font-family: 'georgla';
-    background: -linear-gradient(to bottom right, #e38a12, #8f5bfe);
+    background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
@@ -549,7 +524,8 @@ section img {
   background: #fff5fe; }
   #menu3 h2 {
     font-family: 'Dancing Script';
-    background: -linear-gradient(to bottom right, #001ed9, #1a91fb);
+    background: linear-gradient(to bottom right, #001ed9, #1a91fb);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
@@ -574,7 +550,8 @@ section img {
   background: #fdfffd; }
   #menu4 h2 {
     font-family: 'Kaushan Script';
-    background: -linear-gradient(to bottom right, #3d923a, #beff7f);
+    background: linear-gradient(to bottom right, #3d923a, #beff7f);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
@@ -590,17 +567,6 @@ section img {
   .entree4__titre:hover, .plat4__titre:hover, .dessert4__titre:hover {
     background-size: 100% 100%; }
 
-body {
-  width: auto;
-  margin: 0;
-  padding: 0; }
-
-h1, h2, h3, h4, h5, h6 {
-  text-decoration: none; }
-
-a {
-  text-decoration: none; }
-
 #mentions {
   margin: 20px 40px 200px 40px; }
   #mentions h3 {
@@ -614,5 +580,16 @@ a {
       font-size: 1.1em; }
     #mentions p {
       font-size: 1em; } }
+
+body {
+  width: auto;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

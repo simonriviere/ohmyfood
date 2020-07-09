@@ -1,0 +1,19 @@
+#mentions{
+margin:20px 40px 200px 40px;
+  h3{
+    font-size: 2em;
+  }
+  p{
+    font-size: 1.3em;
+  }
+  @media #{$large-down}{
+    h2{
+      font-size: 1.2em;
+    }
+    h3{
+      font-size:1.1em;
+    }
+    p{
+      font-size: 1em;
+    }
+  }}

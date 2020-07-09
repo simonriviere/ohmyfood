@@ -7,38 +7,16 @@
 @import"layout/footer.scss";
 @import"pages/index.scss";
 @import"pages/menu.scss";
+@import"pages/mention.scss";
 
 body{
   width: auto;
   margin: 0;
   padding: 0;
 }
-
 h1, h2, h3, h4, h5, h6{
   text-decoration: none ;
 }
-
 a{
   text-decoration: none;
 }
-
-
-#mentions{
-margin:20px 40px 200px 40px;
-  h3{
-    font-size: 2em;
-  }
-  p{
-    font-size: 1.3em;
-  }
-  @media #{$large-down}{
-    h2{
-      font-size: 1.2em;
-    }
-    h3{
-      font-size:1.1em;
-    }
-    p{
-      font-size: 1em;
-    }
-  }}

@@ -2,7 +2,6 @@
 #conteneur{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 200px; 
     section{
         @media #{$large-down}{
@@ -17,9 +16,9 @@
         }
     }
 }
-#ligne1{
+.ligne{
     display: flex;
-    justify-content: center;    
+    justify-content: space-around;    
     margin-top:100px;
     @media #{$large-down}{
         flex-direction: column;
@@ -27,15 +26,7 @@
     }
 }
 
-#ligne2{
-    display: flex;
-    justify-content: center;
-    margin-top:90px;
-    @media #{$large-down}{
-       flex-direction: column;
-       margin-top: 0px;
-    }  
-}
+
 %shadow{
     box-shadow:1px 1px 15px rgba(214, 214, 214, 0.74);
 }  
@@ -45,11 +36,20 @@
         transform: scale(1.1);
         opacity: 0.6;
     }
-}  
-#repas1{
+}
+.repas{
     @extend %shadow;
     @include carreMenu;
-    margin-left: 160px;
+    h2{
+        font-weight: 100;
+    }
+    p{
+        text-align: center;
+        font-size: 3em;
+    } 
+    @include tailleTablette(2em, 2.5em,1em);
+} 
+#repas1{
     background: $colorBackMenu1;
     i{
         font-size: 1.8em ;
@@ -59,85 +59,61 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-weight: 100;
         font-family: 'Devonshire';
         font-size: 2.6em;
         color: $colorMenu1;
     }
     p{
         margin-top: 38px;
-        text-align: center;
-        font-size: 3em;
         font-family: 'bradley hand';
         color: $colorTextMenu1;
     }
     @include tailleTablette(2em, 2.7em, 1em);
 }
-
 #repas2{
-    @extend %shadow;
-    @include carreMenu;
-    margin-left: 102px;
-    margin-right:161px;
     background:$colorBackMenu2 ;
     h2{ 
         @include degrade (bottom right, $colorTextMenu2a, $colorTextMenu2b);
-        font-weight: 100;
         font-family: 'Croissant One';
         font-size: 1.8em;
     }
     p{
         color : $colorMenu2;
-        text-align: center;
-        font-size: 3em;
     }
-    @include tailleTablette(2em, 2.5em,1em);
+   
 }
-  
 #repas3{
-    @extend %shadow;
-    @include carreMenu;
-    margin-left : 160px;
     background: $colorBackMenu3;
     h2{
-        font-weight: 200;
         font-family: 'Dancing Script';
         padding-left: 12px;
         font-size: 2.8em;
         @include degrade (bottom right, $colorTextMenu3a, $colorTextMenu3b);
     }
     p{
-        text-align: center;
-        font-size: 3em;
         color:$colorMenu3;
         font-family:'bradley hand';
     } 
     @include tailleTablette(2em, 2.5em,1em);
 }
-
 #repas4{
-    @extend %shadow;
-    @include carreMenu;
-   
-    margin-left: 102px;
-    margin-right: 161px;
     background: $colorBackMenu4;
     h2{
-      font-weight: 100;
       font-family: 'Kaushan Script';
       font-size :2.9em;
       padding-right: 10px;
       @include degrade(bottom right, $colorTextMenu4a, $colorTextMenu4b)
     }
-  
     p{
-      text-align: center;
-      font-size: 3em;
       color:$colorMenu4;
       font-family:'bradley hand';
     }
     @include tailleTablette(2em, 2.7em, 1em); 
 }  
+.btn{
+    display: flex;
+    justify-content : center;
+}
 button{ 
     display: flex;
     justify-content: center;
