@@ -81,7 +81,7 @@
     margin-right:161px;
     background:$colorBackMenu2 ;
     h2{ 
-        @include degrade (bottom , $colorTextMenu2a, $colorTextMenu2b);
+        @include degrade (bottom right, $colorTextMenu2a, $colorTextMenu2b);
         font-weight: 100;
         font-family: 'Croissant One';
         font-size: 1.8em;
@@ -110,7 +110,7 @@
         text-align: center;
         font-size: 3em;
         color:$colorMenu3;
-        font-family:bradley hand ;
+        font-family:'bradley hand';
     } 
     @include tailleTablette(2em, 2.5em,1em);
 }
@@ -134,7 +134,7 @@
       text-align: center;
       font-size: 3em;
       color:$colorMenu4;
-      font-family:bradley hand ;
+      font-family:'bradley hand';
     }
     @include tailleTablette(2em, 2.7em, 1em); 
 }  

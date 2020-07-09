@@ -188,8 +188,7 @@ footer {
   background: #fcdfdb; }
   #repas1 i {
     font-size: 1.8em;
-    background: linear-gradient(to right, #f0443e, #f78f6a);
-    background-clip: text;
+    background: -linear-gradient(to right, #f0443e, #f78f6a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas1 h2 {
@@ -224,8 +223,7 @@ footer {
   margin-right: 161px;
   background: #fff5fe; }
   #repas2 h2 {
-    background: linear-gradient(to bottom, #e38a12, #8f5bfe);
-    background-clip: text;
+    background: -linear-gradient(to bottom right, #e38a12, #8f5bfe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 100;
@@ -256,15 +254,14 @@ footer {
     font-family: 'Dancing Script';
     padding-left: 12px;
     font-size: 2.8em;
-    background: linear-gradient(to bottom right, #001ed9, #1a91fb);
-    background-clip: text;
+    background: -linear-gradient(to bottom right, #001ed9, #1a91fb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas3 p {
     text-align: center;
     font-size: 3em;
     color: #0887fb;
-    font-family: bradley hand; }
+    font-family: 'bradley hand'; }
   @media only screen and (max-width: 1023px) {
     #repas3 h2 {
       font-size: 2em; }
@@ -287,15 +284,14 @@ footer {
     font-family: 'Kaushan Script';
     font-size: 2.9em;
     padding-right: 10px;
-    background: linear-gradient(to bottom right, #3d923a, #beff7f);
-    background-clip: text;
+    background: -linear-gradient(to bottom right, #3d923a, #beff7f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas4 p {
     text-align: center;
     font-size: 3em;
     color: #72bf56;
-    font-family: bradley hand; }
+    font-family: 'bradley hand'; }
   @media only screen and (max-width: 1023px) {
     #repas4 h2 {
       font-size: 2em; }
@@ -455,9 +451,9 @@ main {
   #menu1 h2 {
     font-family: 'Dancing Script'; }
   #menu1 h3 {
-    margin: 0px, 0px, 0px, 0px;
+    margin: 0px 0px 0px 0px;
     font-weight: 200;
-    font-family: comic sans ms; }
+    font-family: 'comic sans ms'; }
 
 .ligneDuMenu1 {
   width: 100%; }
@@ -474,8 +470,7 @@ main {
   #findepage .fas {
     font-size: 2.5em;
     margin-top: 10px;
-    background: linear-gradient(to right, #f0443e, #f78f6a);
-    background-clip: text;
+    background: -linear-gradient(to right, #f0443e, #f78f6a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   @media only screen and (max-width: 480px) {
@@ -486,8 +481,7 @@ main {
 
 section .fas {
   font-size: 6.75em;
-  background: linear-gradient(to right, #f0443e, #f78f6a);
-  background-clip: text;
+  background: -linear-gradient(to right, #f0443e, #f78f6a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 section img {
@@ -510,8 +504,7 @@ section img {
   background: #fff5fe; }
   #menu2 h2 {
     font-family: 'georgla';
-    background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
-    background-clip: text;
+    background: -linear-gradient(to bottom right, #e38a12, #8f5bfe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
@@ -556,8 +549,7 @@ section img {
   background: #fff5fe; }
   #menu3 h2 {
     font-family: 'Dancing Script';
-    background: linear-gradient(to bottom right, #001ed9, #1a91fb);
-    background-clip: text;
+    background: -linear-gradient(to bottom right, #001ed9, #1a91fb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
@@ -582,8 +574,7 @@ section img {
   background: #fdfffd; }
   #menu4 h2 {
     font-family: 'Kaushan Script';
-    background: linear-gradient(to bottom right, #3d923a, #beff7f);
-    background-clip: text;
+    background: -linear-gradient(to bottom right, #3d923a, #beff7f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
@@ -616,5 +607,12 @@ a {
     font-size: 2em; }
   #mentions p {
     font-size: 1.3em; }
+  @media only screen and (max-width: 1023px) {
+    #mentions h2 {
+      font-size: 1.2em; }
+    #mentions h3 {
+      font-size: 1.1em; }
+    #mentions p {
+      font-size: 1em; } }
 
 /*# sourceMappingURL=style.css.map */
