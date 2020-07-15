@@ -125,13 +125,15 @@ button{
     border-radius: 20px;
     font-size: 4em;     
     span{
-      margin-left: 5px;
+      margin-left: 4px;
       animation: ptsSuspension ease-in-out 1000ms infinite;
     }
     span:nth-child(2){
+      margin-left:1px;  
       animation: ptsSuspension ease-in-out 1000ms 200ms infinite ;
     }
     span:nth-child(3){
+        margin-left: 1px;
     animation: ptsSuspension ease-in-out 1000ms 400ms infinite;
     }
     @media #{$medium-down}{
