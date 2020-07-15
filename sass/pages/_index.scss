@@ -30,11 +30,7 @@
     box-shadow:1px 1px 15px rgba(214, 214, 214, 0.74);
 }  
 .zoom{
-    transition: all ease-in-out 400ms ;
-    &:hover{
-        transform: scale(1.1);
-        opacity: 0.6;
-    }
+    @include zoom; 
 }
 .repas{
     @extend %shadow;

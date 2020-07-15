@@ -12,6 +12,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@mixin zoom {
+    transition: all ease-in-out 400ms ;
+    &:hover{
+        transform: scale(1.1);
+        opacity: 0.6;
+    }
+}
 @mixin surligne($colour){
     position: relative;
     background: linear-gradient(to top, $colour 0%, $colour 3px, transparent 4px) no-repeat;
@@ -21,7 +28,6 @@
         background-size:100% 100% ;
         }
 }
-
 @mixin tailleTablette($tailleH, $tailleP, $tailleA){
     @media #{$large-down}{
         h2{
