@@ -7,66 +7,66 @@
   font-family: 'Dancing Script';
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/dancing/dancing-script-v15-latin-regular.eot");
+  src: url("sass/base/fonts/dancing/dancing-script-v15-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("fonts/dancing/dancing-script-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/dancing/dancing-script-v15-latin-regular.woff2") format("woff2"), url("fonts/dancing/dancing-script-v15-latin-regular.woff") format("woff"), url("fonts/dancing/dancing-script-v15-latin-regular.ttf") format("truetype"), url("fonts/dancing/dancing-script-v15-latin-regular.svg#DancingScript") format("svg");
+  src: local(""), url("sass/base/fonts/dancing/dancing-script-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("sass/base/fonts/dancing/dancing-script-v15-latin-regular.woff2") format("woff2"), url("sass/base/fonts/dancing/dancing-script-v15-latin-regular.woff") format("woff"), url("sass/base/fonts/dancing/dancing-script-v15-latin-regular.ttf") format("truetype"), url("sass/base/fonts/dancing/dancing-script-v15-latin-regular.svg#DancingScript") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/montserrat/montserrat-v14-latin-regular.eot");
+  src: url("sass/base/fonts/montserrat/montserrat-v14-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("fonts/montserrat/montserrat-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat/montserrat-v14-latin-regular.woff2") format("woff2"), url("fonts/montserrat/montserrat-v14-latin-regular.woff") format("woff"), url("fonts/montserrat/montserrat-v14-latin-regular.ttf") format("truetype"), url("fonts/montserrat/montserrat-v14-latin-regular.svg#Montserrat") format("svg");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("sass/base/fonts/montserrat/montserrat-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("sass/base/fonts/montserrat/montserrat-v14-latin-regular.woff2") format("woff2"), url("sass/base/fonts/montserrat/montserrat-v14-latin-regular.woff") format("woff"), url("sass/base/fonts/montserrat/montserrat-v14-latin-regular.ttf") format("truetype"), url("sass/base/fonts/montserrat/montserrat-v14-latin-regular.svg#Montserrat") format("svg");
   /* Legacy iOS */ }
 /* montserrat-700 - latin */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/montserrat/montserrat-v14-latin-700.eot");
+  src: url("sass/base/fonts/montserrat/montserrat-v14-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("fonts/montserrat/montserrat-v14-latin-700.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat/montserrat-v14-latin-700.woff2") format("woff2"), url("fonts/montserrat/montserrat-v14-latin-700.woff") format("woff"), url("fonts/montserrat/montserrat-v14-latin-700.ttf") format("truetype"), url("fonts/montserrat/montserrat-v14-latin-700.svg#Montserrat") format("svg");
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("sass/base/fonts/montserrat/montserrat-v14-latin-700.eot?#iefix") format("embedded-opentype"), url("sass/base/fonts/montserrat/montserrat-v14-latin-700.woff2") format("woff2"), url("sass/base/fonts/montserrat/montserrat-v14-latin-700.woff") format("woff"), url("sass/base/fonts/montserrat/montserrat-v14-latin-700.ttf") format("truetype"), url("sass/base/fonts/montserrat/montserrat-v14-latin-700.svg#Montserrat") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Devonshire';
   font-style: normal;
   font-weight: 100;
-  src: url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.eot");
+  src: url("sass/base/fonts/devonshire-v8-latin/devonshire-v8-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Devonshire-Regular"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.woff2") format("woff2"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.woff") format("woff"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.ttf") format("truetype"), url("fonts/devonshire-v8-latin/devonshire-v8-latin-regular.svg#Devonshire") format("svg");
+  src: local("Devonshire-Regular"), url("sass/base/fonts/devonshire-v8-latin/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("sass/base/fonts/devonshire-v8-latin/devonshire-v8-latin-regular.woff2") format("woff2"), url("sass/base/fonts/devonshire-v8-latin/devonshire-v8-latin-regular.woff") format("woff"), url("sass/base/fonts/devonshire-v8-latin/devonshire-v8-latin-regular.ttf") format("truetype"), url("sass/base/fonts/devonshire-v8-latin/devonshire-v8-latin-regular.svg#Devonshire") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Dancing Script';
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.eot");
+  src: url("sass/base/fonts/dancing-script-v14/dancing-script-v14-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.woff2") format("woff2"), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.woff") format("woff"), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.ttf") format("truetype"), url("fonts/dancing-script-v14/dancing-script-v14-latin-regular.svg#DancingScript") format("svg");
+  src: local(""), url("sass/base/fonts/dancing-script-v14/dancing-script-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("sass/base/fonts/dancing-script-v14/dancing-script-v14-latin-regular.woff2") format("woff2"), url("sass/base/fonts/dancing-script-v14/dancing-script-v14-latin-regular.woff") format("woff"), url("sass/base/fonts/dancing-script-v14/dancing-script-v14-latin-regular.ttf") format("truetype"), url("sass/base/fonts/dancing-script-v14/dancing-script-v14-latin-regular.svg#DancingScript") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Kaushan Script';
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.eot");
+  src: url("sass/base/fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.woff") format("woff"), url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.woff2") format("woff2"), url("fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.ttf") format("truetype"), url("fonts/kaushan-script-v8-latinkaushan-script-v8-latin-regular.svg#KaushanScript") format("svg");
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("sass/base/fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("sass/base/fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.woff") format("woff"), url("sass/base/fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.woff2") format("woff2"), url("sass/base/fonts/kaushan-script-v8-latin/kaushan-script-v8-latin-regular.ttf") format("truetype"), url("sass/base/fonts/kaushan-script-v8-latinkaushan-script-v8-latin-regular.svg#KaushanScript") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Croissant One';
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.eot");
+  src: url("sass/base/fonts/croissant-one-v7/croissant-one-v7-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Croissant One"), local("CroissantOne-Regular"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.woff2") format("woff2"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.woff") format("woff"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.ttf") format("truetype"), url("fonts/croissant-one-v7/croissant-one-v7-latin-regular.svg#CroissantOne") format("svg");
+  src: local("Croissant One"), local("CroissantOne-Regular"), url("sass/base/fonts/croissant-one-v7/croissant-one-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("sass/base/fonts/croissant-one-v7/croissant-one-v7-latin-regular.woff2") format("woff2"), url("sass/base/fonts/croissant-one-v7/croissant-one-v7-latin-regular.woff") format("woff"), url("sass/base/fonts/croissant-one-v7/croissant-one-v7-latin-regular.ttf") format("truetype"), url("sass/base/fonts/croissant-one-v7/croissant-one-v7-latin-regular.svg#CroissantOne") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Khmer';
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.eot");
+  src: url("sass/base/fonts/khmer-v12-khmer/khmer-v12-khmer-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Khmer"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.eot?#iefix") format("embedded-opentype"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.woff2") format("woff2"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.woff") format("woff"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.ttf") format("truetype"), url("fonts/khmer-v12-khmer/khmer-v12-khmer-regular.svg#Khmer") format("svg");
+  src: local("Khmer"), url("sass/base/fonts/khmer-v12-khmer/khmer-v12-khmer-regular.eot?#iefix") format("embedded-opentype"), url("sass/base/fonts/khmer-v12-khmer/khmer-v12-khmer-regular.woff2") format("woff2"), url("sass/base/fonts/khmer-v12-khmer/khmer-v12-khmer-regular.woff") format("woff"), url("sass/base/fonts/khmer-v12-khmer/khmer-v12-khmer-regular.ttf") format("truetype"), url("sass/base/fonts/khmer-v12-khmer/khmer-v12-khmer-regular.svg#Khmer") format("svg");
   /* Legacy iOS */ }
 @keyframes ptsSuspension {
   0% {
@@ -157,6 +157,7 @@ footer {
   @media only screen and (max-width: 1023px) {
     .ligne {
       flex-direction: column;
+      align-items: center;
       margin-top: 0px; } }
 
 .repas {
@@ -175,6 +176,7 @@ footer {
   width: 536px;
   height: 760px; }
   .repas h2 {
+    font-size: 2.8em;
     font-weight: 100; }
   .repas p {
     text-align: center;
@@ -200,7 +202,6 @@ footer {
     flex-direction: column;
     align-items: center;
     font-family: 'Devonshire';
-    font-size: 2.6em;
     color: #3c1218; }
   #repas1 p {
     margin-top: 38px;
@@ -217,21 +218,23 @@ footer {
 #repas2 {
   background: #fff5fe; }
   #repas2 h2 {
+    font-size: 2.2em;
     background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Croissant One';
-    font-size: 1.8em; }
+    font-family: 'Croissant One'; }
   #repas2 p {
     color: #c77412; }
+  @media only screen and (max-width: 1023px) {
+    #repas2 h2 {
+      font-size: 1.5em; } }
 
 #repas3 {
   background: #F9F9F9; }
   #repas3 h2 {
     font-family: 'Dancing Script';
     padding-left: 12px;
-    font-size: 2.8em;
     background: linear-gradient(to bottom right, #001ed9, #1a91fb);
     background-clip: text;
     -webkit-background-clip: text;
@@ -251,7 +254,6 @@ footer {
   background: #fdfffd; }
   #repas4 h2 {
     font-family: 'Kaushan Script';
-    font-size: 2.9em;
     padding-right: 10px;
     background: linear-gradient(to bottom right, #3d923a, #beff7f);
     background-clip: text;
@@ -360,6 +362,9 @@ main {
     font-size: 2.4em;
     font-weight: 200; }
   @media only screen and (max-width: 1023px) {
+    .menu .ligneDuMenu {
+      flex-direction: column;
+      align-items: center; }
     .menu h2 {
       text-align: center;
       font-size: 3.5em; }
@@ -411,6 +416,16 @@ main {
         .description .ligneDuMenu p {
           margin-left: 0px; } }
 
+section .fas {
+  font-size: 6.75em;
+  background: linear-gradient(to right, #f0443e, #f78f6a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+section img {
+  justify-content: start;
+  width: 288px; }
+
 /*Menu 1 */
 #entete {
   display: flex;
@@ -451,16 +466,6 @@ main {
       font-size: 2em; }
     #findepage .fas {
       margin-top: 0px; } }
-
-section .fas {
-  font-size: 6.75em;
-  background: linear-gradient(to right, #f0443e, #f78f6a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-section img {
-  justify-content: start;
-  width: 288px; }
 
 .entree1__titre, .plat1__titre, .dessert1__titre {
   position: relative;

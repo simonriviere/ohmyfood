@@ -21,6 +21,7 @@ main{
   }
 }
 .menu{
+
   width: 87%;
   display: flex;
   flex-direction: column;
@@ -44,6 +45,9 @@ main{
     font-weight: 200;
   }  
   @media #{$large-down}{
+    .ligneDuMenu{
+    flex-direction: column;
+    align-items: center;}
     h2{
       text-align: center;
       font-size: 3.5em;
@@ -105,6 +109,16 @@ main{
     }  
   }
 }
+section{
+  .fas{ 
+    font-size: 6.75em;
+    @include degrade(right, #f0443e, #f78f6a);
+  }
+  img{
+    justify-content: start;
+    width: 288px;
+  }
+}
 /*Menu 1 */
 #entete{
   display: flex;
@@ -150,16 +164,7 @@ main{
     }
   }
 }
-section{
-  .fas{ 
-    font-size: 6.75em;
-    @include degrade(right, #f0443e, #f78f6a);
-  }
-  img{
-    justify-content: start;
-    width: 288px;
-  }
-}
+
 .entree1, .plat1, .dessert1{
   &__titre{
     @include surligne($colorTextMenu1);

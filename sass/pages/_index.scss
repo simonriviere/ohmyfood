@@ -22,6 +22,7 @@
     margin-top:100px;
     @media #{$large-down}{
         flex-direction: column;
+        align-items: center;
         margin-top: 0px;
     }
 }
@@ -41,6 +42,7 @@
     @extend %shadow;
     @include carreMenu;
     h2{
+        font-size: 2.8em;
         font-weight: 100;
     }
     p{
@@ -60,7 +62,6 @@
         flex-direction: column;
         align-items: center;
         font-family: 'Devonshire';
-        font-size: 2.6em;
         color: $colorMenu1;
     }
     p{
@@ -73,12 +74,17 @@
 #repas2{
     background:$colorBackMenu2 ;
     h2{ 
+        font-size: 2.2em;
         @include degrade (bottom right, $colorTextMenu2a, $colorTextMenu2b);
         font-family: 'Croissant One';
-        font-size: 1.8em;
     }
     p{
         color : $colorMenu2;
+    }
+    @media #{$large-down}{
+        h2{
+            font-size: 1.5em;
+        }
     }
    
 }
@@ -87,7 +93,6 @@
     h2{
         font-family: 'Dancing Script';
         padding-left: 12px;
-        font-size: 2.8em;
         @include degrade (bottom right, $colorTextMenu3a, $colorTextMenu3b);
     }
     p{
@@ -100,7 +105,6 @@
     background: $colorBackMenu4;
     h2{
       font-family: 'Kaushan Script';
-      font-size :2.9em;
       padding-right: 10px;
       @include degrade(bottom right, $colorTextMenu4a, $colorTextMenu4b)
     }
