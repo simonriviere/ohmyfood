@@ -194,7 +194,7 @@ footer {
   #repas1 i {
     font-size: 1.8em;
     background: linear-gradient(to right, #f0443e, #f78f6a);
-    background-clip: text;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas1 h2 {
@@ -220,7 +220,7 @@ footer {
   #repas2 h2 {
     font-size: 2.2em;
     background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
-    background-clip: text;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Croissant One'; }
@@ -236,7 +236,7 @@ footer {
     font-family: 'Dancing Script';
     padding-left: 12px;
     background: linear-gradient(to bottom right, #001ed9, #1a91fb);
-    background-clip: text;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas3 p {
@@ -256,7 +256,7 @@ footer {
     font-family: 'Kaushan Script';
     padding-right: 10px;
     background: linear-gradient(to bottom right, #3d923a, #beff7f);
-    background-clip: text;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   #repas4 p {
@@ -419,7 +419,7 @@ main {
 section .fas {
   font-size: 6.75em;
   background: linear-gradient(to right, #f0443e, #f78f6a);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 section img {
@@ -458,7 +458,7 @@ section img {
     font-size: 2.5em;
     margin-top: 10px;
     background: linear-gradient(to right, #f0443e, #f78f6a);
-    background-clip: text;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   @media only screen and (max-width: 480px) {
@@ -484,7 +484,7 @@ section img {
   #menu2 h2 {
     font-family: 'georgla';
     background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
-    background-clip: text;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
@@ -530,7 +530,7 @@ section img {
   #menu3 h2 {
     font-family: 'Dancing Script';
     background: linear-gradient(to bottom right, #001ed9, #1a91fb);
-    background-clip: text;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
@@ -556,7 +556,7 @@ section img {
   #menu4 h2 {
     font-family: 'Kaushan Script';
     background: linear-gradient(to bottom right, #3d923a, #beff7f);
-    background-clip: text;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
