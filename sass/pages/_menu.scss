@@ -11,7 +11,7 @@ main{
   padding-top: 40px;
   h2{
     font-size: 3.7em;
-    font-family: Helvetica;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
   } 
   @media #{$medium-down}{
     h2{
@@ -132,11 +132,11 @@ section{
   background: $colorFondMenu1;
   color:$colorTextMenu1; 
   h2{
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
   } 
   h3{
     font-weight: 200;
-    font-family: 'comic sans ms';
+    font-family: 'comic sans ms', Arial, Verdana, sans-serif;
   }
 }  
 .ligneDuMenu1{
@@ -148,7 +148,7 @@ section{
   margin-top: 70px;
   h2{
     font-size: 3em;    
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
     margin:0px;
     padding-left: 15px;
   }
@@ -175,14 +175,14 @@ section{
 }
 .description{
   .text{
-    font-family: 'Bradley hand';   
+    font-family: 'Bradley hand', Arial, Verdana, sans-serif;   
   }
 }
 /* menu 2*/   
 #menu2{  
   background: $colorBackMenu2;
   h2{
-    font-family: 'georgla';
+    font-family: 'georgla', Arial, Verdana, sans-serif;
     @include degrade (bottom right, $colorTextMenu2a, $colorTextMenu2b);
     letter-spacing: 4px;
   }
@@ -218,19 +218,19 @@ section{
     background: $colorBackMenu2;
   h2{
     padding-left: 10px;
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
     @include degrade (bottom right, $colorTextMenu3a, $colorTextMenu3b);
     letter-spacing: 4px;
   }
   h3{
-    font-family: 'comic sans ms';
+    font-family: 'comic sans ms', Arial, Verdana, sans-serif;
   }
 }
 .description{
   .plat3{
     letter-spacing: 1.2px;
     &__text{
-      font-family: 'Bradley hand';
+      font-family: 'Bradley hand', Arial, Verdana, sans-serif;
     }
   }
 } 
@@ -242,7 +242,7 @@ section{
 #menu4{  
   background: $colorBackMenu4;
   h2{
-    font-family: 'Kaushan Script';
+    font-family: 'Kaushan Script', Arial, Verdana, sans-serif;
     @include degrade (bottom right, $colorTextMenu4a, $colorTextMenu4b);
     letter-spacing: 4px;
   }
@@ -250,7 +250,7 @@ section{
 .description{
   .plat4{
     &__text{
-      font-family: Bradley hand;
+      font-family: 'Bradley hand', Arial, Verdana, sans-serif;
     }
   }
 } 

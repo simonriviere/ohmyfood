@@ -92,7 +92,7 @@ header {
   background: #569c87;
   border-bottom: 2px solid #a1c181; }
   header h1 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Verdana, sans-serif;
     font-size: 4.7em;
     margin: 0px;
     text-align: center;
@@ -204,11 +204,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Devonshire';
+    font-family: 'Devonshire', Arial, Verdana, sans-serif;
     color: #3c1218; }
   #repas1 p {
     margin-top: 38px;
-    font-family: 'bradley hand';
+    font-family: 'bradley hand', Arial, Verdana, sans-serif;
     color: #2e0e13; }
   @media only screen and (max-width: 1023px) {
     #repas1 h2 {
@@ -226,7 +226,7 @@ footer {
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Croissant One'; }
+    font-family: 'Croissant One', Arial, Verdana, sans-serif; }
   #repas2 p {
     color: #c77412; }
   @media only screen and (max-width: 1023px) {
@@ -236,7 +236,7 @@ footer {
 #repas3 {
   background: #F9F9F9; }
   #repas3 h2 {
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
     padding-left: 12px;
     background: linear-gradient(to bottom right, #001ed9, #1a91fb);
     background-clip: border-box;
@@ -244,7 +244,7 @@ footer {
     -webkit-text-fill-color: transparent; }
   #repas3 p {
     color: #0887fb;
-    font-family: 'bradley hand'; }
+    font-family: 'bradley hand', Arial, Verdana, sans-serif; }
   @media only screen and (max-width: 1023px) {
     #repas3 h2 {
       font-size: 2em; }
@@ -256,7 +256,7 @@ footer {
 #repas4 {
   background: #fdfffd; }
   #repas4 h2 {
-    font-family: 'Kaushan Script';
+    font-family: 'Kaushan Script', Arial, Verdana, sans-serif;
     padding-right: 10px;
     background: linear-gradient(to bottom right, #3d923a, #beff7f);
     background-clip: border-box;
@@ -264,7 +264,7 @@ footer {
     -webkit-text-fill-color: transparent; }
   #repas4 p {
     color: #72bf56;
-    font-family: 'bradley hand'; }
+    font-family: 'bradley hand', Arial, Verdana, sans-serif; }
   @media only screen and (max-width: 1023px) {
     #repas4 h2 {
       font-size: 2em; }
@@ -291,11 +291,11 @@ button {
   font-size: 4em; }
   button span {
     margin-left: 5px;
-    animation: ptsSuspension ease-in-out 800ms infinite; }
+    animation: ptsSuspension ease-in-out 1000ms infinite; }
   button span:nth-child(2) {
-    animation: ptsSuspension ease-in-out 800ms 200ms infinite; }
+    animation: ptsSuspension ease-in-out 1000ms 200ms infinite; }
   button span:nth-child(3) {
-    animation: ptsSuspension ease-in-out 800ms 400ms infinite; }
+    animation: ptsSuspension ease-in-out 1000ms 400ms infinite; }
   @media only screen and (max-width: 480px) {
     button {
       width: 320px;
@@ -314,7 +314,7 @@ main {
   padding-top: 40px; }
   main h2 {
     font-size: 3.7em;
-    font-family: Helvetica; }
+    font-family: Helvetica, Arial, Verdana, sans-serif; }
   @media only screen and (max-width: 480px) {
     main h2 {
       font-size: 1.8em;
@@ -418,10 +418,10 @@ section img {
   background: #fad7d3;
   color: #2e0e13; }
   #menu1 h2 {
-    font-family: 'Dancing Script'; }
+    font-family: 'Dancing Script', Arial, Verdana, sans-serif; }
   #menu1 h3 {
     font-weight: 200;
-    font-family: 'comic sans ms'; }
+    font-family: 'comic sans ms', Arial, Verdana, sans-serif; }
 
 .ligneDuMenu1 {
   width: 100%; }
@@ -432,7 +432,7 @@ section img {
   margin-top: 70px; }
   #findepage h2 {
     font-size: 3em;
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
     margin: 0px;
     padding-left: 15px; }
   #findepage .fas {
@@ -457,13 +457,13 @@ section img {
     background-size: 100% 100%; }
 
 .description .text {
-  font-family: 'Bradley hand'; }
+  font-family: 'Bradley hand', Arial, Verdana, sans-serif; }
 
 /* menu 2*/
 #menu2 {
   background: #fff5fe; }
   #menu2 h2 {
-    font-family: 'georgla';
+    font-family: 'georgla', Arial, Verdana, sans-serif;
     background: linear-gradient(to bottom right, #e38a12, #8f5bfe);
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -510,19 +510,19 @@ section img {
   background: #fff5fe; }
   #menu3 h2 {
     padding-left: 10px;
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
     background: linear-gradient(to bottom right, #001ed9, #1a91fb);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
   #menu3 h3 {
-    font-family: 'comic sans ms'; }
+    font-family: 'comic sans ms', Arial, Verdana, sans-serif; }
 
 .description .plat3 {
   letter-spacing: 1.2px; }
   .description .plat3__text {
-    font-family: 'Bradley hand'; }
+    font-family: 'Bradley hand', Arial, Verdana, sans-serif; }
 
 .entree3__titre, .plat3__titre, .dessert3__titre {
   position: relative;
@@ -535,7 +535,7 @@ section img {
 #menu4 {
   background: #fdfffd; }
   #menu4 h2 {
-    font-family: 'Kaushan Script';
+    font-family: 'Kaushan Script', Arial, Verdana, sans-serif;
     background: linear-gradient(to bottom right, #3d923a, #beff7f);
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -543,7 +543,7 @@ section img {
     letter-spacing: 4px; }
 
 .description .plat4__text {
-  font-family: Bradley hand; }
+  font-family: 'Bradley hand', Arial, Verdana, sans-serif; }
 
 .entree4__titre, .plat4__titre, .dessert4__titre {
   position: relative;
