@@ -129,38 +129,14 @@ button{
     border-radius: 20px;
     font-size: 4em;     
     span{
-      background: $colorTextPrincipal;
-      border-radius: 50px;
-      width: 15px;
-      height: 15px;
       margin-left: 5px;
       animation: ptsSuspension ease-in-out 800ms infinite;
-      @media #{$medium-down}{
-        width: 8px;
-        height: 8px;
-    }
     }
     span:nth-child(2){
-      background: $colorTextPrincipal;
-      border-radius: 50px;
-      width: 15px;
-      height: 15px;
       animation: ptsSuspension ease-in-out 800ms 200ms infinite ;
-      @media #{$medium-down}{
-        width: 8px;
-        height: 8px;
-    }
     }
     span:nth-child(3){
-        background: $colorTextPrincipal;
-        border-radius: 50px;
-        width: 15px;
-        height: 15px;
-        animation: ptsSuspension ease-in-out 800ms 400ms infinite;
-        @media #{$medium-down}{
-            width: 8px;
-            height: 8px;
-        }
+    animation: ptsSuspension ease-in-out 800ms 400ms infinite;
     }
     @media #{$medium-down}{
         width: 320px;

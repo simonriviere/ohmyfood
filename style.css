@@ -70,11 +70,14 @@
   /* Legacy iOS */ }
 @keyframes ptsSuspension {
   0% {
-    transform: translateY(10px); }
+    transform: translateY(0px);
+    opacity: 0.7; }
   50% {
-    transform: translateY(17px); }
+    transform: translateY(-3px);
+    opacity: 1; }
   100% {
-    transform: translateY(10px); } }
+    transform: translateY(0px);
+    opacity: 0.7; } }
 @keyframes headshake {
   25% {
     transform: translateX(1%); }
@@ -287,36 +290,12 @@ button {
   border-radius: 20px;
   font-size: 4em; }
   button span {
-    background: #fdcb46;
-    border-radius: 50px;
-    width: 15px;
-    height: 15px;
     margin-left: 5px;
     animation: ptsSuspension ease-in-out 800ms infinite; }
-    @media only screen and (max-width: 480px) {
-      button span {
-        width: 8px;
-        height: 8px; } }
   button span:nth-child(2) {
-    background: #fdcb46;
-    border-radius: 50px;
-    width: 15px;
-    height: 15px;
     animation: ptsSuspension ease-in-out 800ms 200ms infinite; }
-    @media only screen and (max-width: 480px) {
-      button span:nth-child(2) {
-        width: 8px;
-        height: 8px; } }
   button span:nth-child(3) {
-    background: #fdcb46;
-    border-radius: 50px;
-    width: 15px;
-    height: 15px;
     animation: ptsSuspension ease-in-out 800ms 400ms infinite; }
-    @media only screen and (max-width: 480px) {
-      button span:nth-child(3) {
-        width: 8px;
-        height: 8px; } }
   @media only screen and (max-width: 480px) {
     button {
       width: 320px;
@@ -354,7 +333,7 @@ main {
   .menu h2 {
     font-size: 4.5em;
     margin-top: 20px;
-    margin-bottom: 40px; }
+    margin-bottom: 0px; }
   .menu h3 {
     margin-top: 100px;
     margin-bottom: 60px;
@@ -367,7 +346,8 @@ main {
       align-items: center; }
     .menu h2 {
       text-align: center;
-      font-size: 3.5em; }
+      font-size: 3.5em;
+      margin: 0px; }
     .menu img {
       width: 100px; }
     .menu h3 {
@@ -380,8 +360,10 @@ main {
       padding: 55px 0px 100px 0px;
       width: 95%; }
       .menu h2 {
+        margin-bottom: 40px;
         font-size: 2.2em; }
       .menu h3 {
+        margin: 20px 0px 40px 0px;
         font-size: 1.5em; }
       .menu img {
         width: 60px; }
@@ -405,11 +387,11 @@ main {
     font-size: 1.7em; }
     @media only screen and (max-width: 1023px) {
       .description .ligneDuMenu {
+        flex-direction: column-reverse;
         width: 90%;
         font-size: 1.5em; } }
     @media only screen and (max-width: 480px) {
       .description .ligneDuMenu {
-        flex-direction: column-reverse;
         font-size: 1.1em;
         text-align: center;
         margin-bottom: 20px; }
@@ -438,7 +420,6 @@ section img {
   #menu1 h2 {
     font-family: 'Dancing Script'; }
   #menu1 h3 {
-    margin: 0px 0px 0px 0px;
     font-weight: 200;
     font-family: 'comic sans ms'; }
 
@@ -528,6 +509,7 @@ section img {
 #menu3 {
   background: #fff5fe; }
   #menu3 h2 {
+    padding-left: 10px;
     font-family: 'Dancing Script';
     background: linear-gradient(to bottom right, #001ed9, #1a91fb);
     background-clip: border-box;
@@ -535,7 +517,6 @@ section img {
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px; }
   #menu3 h3 {
-    font-size: 1.4em;
     font-family: 'comic sans ms'; }
 
 .description .plat3 {
