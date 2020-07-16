@@ -125,16 +125,16 @@ button{
     border-radius: 20px;
     font-size: 4em;     
     span{
-      margin-left: 4px;
-      animation: ptsSuspension ease-in-out 1000ms infinite;
+        margin-left: 4px;
+        animation: ptsSuspension linear 1000ms infinite;
     }
     span:nth-child(2){
-      margin-left:1px;  
-      animation: ptsSuspension ease-in-out 1000ms 200ms infinite ;
+        margin-left:1px;  
+        animation: ptsSuspension linear 1000ms 200ms infinite ;
     }
     span:nth-child(3){
         margin-left: 1px;
-    animation: ptsSuspension ease-in-out 1000ms 400ms infinite;
+        animation: ptsSuspension linear 1000ms 400ms infinite;
     }
     @media #{$medium-down}{
         width: 320px;

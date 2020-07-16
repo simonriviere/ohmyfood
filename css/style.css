@@ -283,13 +283,13 @@ button {
   font-size: 4em; }
   button span {
     margin-left: 4px;
-    animation: ptsSuspension ease-in-out 1000ms infinite; }
+    animation: ptsSuspension linear 1000ms infinite; }
   button span:nth-child(2) {
     margin-left: 1px;
-    animation: ptsSuspension ease-in-out 1000ms 200ms infinite; }
+    animation: ptsSuspension linear 1000ms 200ms infinite; }
   button span:nth-child(3) {
     margin-left: 1px;
-    animation: ptsSuspension ease-in-out 1000ms 400ms infinite; }
+    animation: ptsSuspension linear 1000ms 400ms infinite; }
   @media only screen and (max-width: 480px) {
     button {
       width: 320px;
