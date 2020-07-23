@@ -1,24 +1,23 @@
-@keyframes ptsSuspension{
-  0%{
-    transform : translateY(0px);
+@keyframes ptsSuspension {
+  0% {
+    transform: translateY(0px);
     opacity: 0.7;
   }
-  50%{
-    transform: translateY(-3px);    
+  50% {
+    transform: translateY(-3px);
     opacity: 1;
   }
-  100%{
-    transform : translateY(0px);
+  100% {
+    transform: translateY(0px);
     opacity: 0.7;
   }
 }
-$shake-intensite:1%;
-@keyframes headshake{
-  25%{
+$shake-intensite: 1%;
+@keyframes headshake {
+  25% {
     transform: translateX($shake-intensite);
   }
-  75%{
+  75% {
     transform: translateX(-$shake-intensite);
   }
 }
-

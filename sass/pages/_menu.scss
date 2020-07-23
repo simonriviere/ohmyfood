@@ -1,261 +1,266 @@
 /*général*/
-.intitule{
+.intitule {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}  
-main{
+}
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 40px;
-  h2{
+  h2 {
     font-size: 3.7em;
     font-family: Helvetica, Arial, Verdana, sans-serif;
-  } 
-  @media #{$medium-down}{
-    h2{
+  }
+  @media #{$medium-down} {
+    h2 {
       font-size: 1.8em;
       text-align: center;
     }
   }
 }
-.menu{
+.menu {
   width: 87%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 85px 0px 100px 0px;
   margin-bottom: 200px;
-  box-shadow:1px 1px 25px rgba(214, 214, 214, 0.932);
-  p{
+  box-shadow: 1px 1px 25px rgba(214, 214, 214, 0.932);
+  p {
     margin: 0px 0px 30px 0px;
   }
-  h2{
+  h2 {
     font-size: 4.5em;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 0px;
-  } 
-  h3{
-    margin-top:100px;
+  }
+  h3 {
+    margin-top: 100px;
     margin-bottom: 60px;
     letter-spacing: 2px;
     font-size: 2.4em;
     font-weight: 200;
-  }  
-  @media #{$large-down}{
-    .ligneDuMenu{
-    flex-direction: column;
-    align-items: center;}
-    h2{
+  }
+  @media #{$large-down} {
+    .ligneDuMenu {
+      flex-direction: column;
+      align-items: center;
+    }
+    h2 {
       text-align: center;
       font-size: 3.5em;
       margin: 0px;
-      }
-    img{
+    }
+    img {
       width: 100px;
     }
-    h3{
+    h3 {
       font-size: 2.2em;
       text-align: center;
       margin-top: 20px;
       margin-bottom: 40px;
     }
   }
-  @media #{$medium-down}{
+  @media #{$medium-down} {
     padding: 55px 0px 100px 0px;
     width: 95%;
-    h2{
+    h2 {
       margin-bottom: 40px;
       font-size: 2.2em;
     }
-    h3{    
+    h3 {
       margin: 20px 0px 40px 0px;
       font-size: 1.5em;
     }
-    img{
+    img {
       width: 60px;
     }
-    p{
+    p {
       margin: 0px 0px 10px 15px;
     }
   }
 }
-#carte{
+#carte {
   width: 90%;
-  @media #{$medium-down}{
+  @media #{$medium-down} {
     width: 95%;
   }
 }
-.description{
+.description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  .ligneDuMenu{
+  .ligneDuMenu {
     width: 80%;
     display: flex;
     justify-content: space-between;
     font-size: 1.7em;
-    @media #{$large-down}{
-      flex-direction: column-reverse; 
+    @media #{$large-down} {
+      flex-direction: column-reverse;
       width: 90%;
       font-size: 1.5em;
     }
-    @media #{$medium-down}{
-      
+    @media #{$medium-down} {
       font-size: 1.1em;
       text-align: center;
       margin-bottom: 20px;
-      p{
+      p {
         margin-left: 0px;
       }
-    }  
+    }
   }
 }
-section{
-  .fas{ 
+section {
+  .fas {
     font-size: 6.75em;
     @include degrade(right, #f0443e, #f78f6a);
   }
-  img{
+  img {
     justify-content: start;
     width: 288px;
   }
 }
 /*Menu 1 */
-#entete{
+#entete {
   display: flex;
   flex-direction: column;
   align-items: center;
-}  
-#menu1{  
+}
+#menu1 {
   background: $colorFondMenu1;
-  color:$colorTextMenu1; 
-  h2{
-    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
-  } 
-  h3{
-    font-weight: 200;
-    font-family: 'comic sans ms', Arial, Verdana, sans-serif;
+  color: $colorTextMenu1;
+  h2 {
+    font-family: "Dancing Script", Arial, Verdana, sans-serif;
   }
-}  
-.ligneDuMenu1{
+  h3 {
+    font-weight: 200;
+    font-family: "comic sans ms", Arial, Verdana, sans-serif;
+  }
+}
+.ligneDuMenu1 {
   width: 100%;
 }
-#findepage{
+#findepage {
   display: flex;
   justify-content: center;
   margin-top: 70px;
-  h2{
-    font-size: 3em;    
-    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
-    margin:0px;
+  h2 {
+    font-size: 3em;
+    font-family: "Dancing Script", Arial, Verdana, sans-serif;
+    margin: 0px;
     padding-left: 15px;
   }
-  .fas{ 
-    font-size:2.5em;
-    margin-top:10px;
+  .fas {
+    font-size: 2.5em;
+    margin-top: 10px;
     @include degrade(right, #f0443e, #f78f6a);
   }
-  @media #{$medium-down}{
-    h2{
+  @media #{$medium-down} {
+    h2 {
       font-size: 2em;
     }
-    .fas{
+    .fas {
       margin-top: 0px;
     }
   }
 }
 
-.entree1, .plat1, .dessert1{
-  &__titre{
+.entree1,
+.plat1,
+.dessert1 {
+  &__titre {
     @include surligne($colorTextMenu1);
   }
-
 }
-.description{
-  .text{
-    font-family: 'Bradley hand', Arial, Verdana, sans-serif;   
+.description {
+  .text {
+    font-family: "Bradley hand", Arial, Verdana, sans-serif;
   }
 }
-/* menu 2*/   
-#menu2{  
+/* menu 2*/
+#menu2 {
   background: $colorBackMenu2;
-  h2{
-    font-family: 'georgla', Arial, Verdana, sans-serif;
-    @include degrade (bottom right, $colorTextMenu2a, $colorTextMenu2b);
+  h2 {
+    font-family: "georgla", Arial, Verdana, sans-serif;
+    @include degrade(bottom right, $colorTextMenu2a, $colorTextMenu2b);
     letter-spacing: 4px;
   }
-  h3{
+  h3 {
     font-weight: 100;
   }
 }
-.description{
-    .ligneDuMenu2{
+.description {
+  .ligneDuMenu2 {
     letter-spacing: 1.2px;
   }
-} 
-.entree2{
-    color: $colorEntreeMenu2;
-  &__titre{
+}
+.entree2 {
+  color: $colorEntreeMenu2;
+  &__titre {
     @include surligne($colorEntreeMenu2);
   }
 }
-.plat2{
+.plat2 {
   color: $colorPlatMenu2;
-  &__titre{
+  &__titre {
     @include surligne($colorPlatMenu2);
   }
 }
-.dessert2{
-  color:$colorDessertMenu2;
-  &__titre{
+.dessert2 {
+  color: $colorDessertMenu2;
+  &__titre {
     @include surligne($colorDessertMenu2);
   }
 }
 /*Menu 3*/
-#menu3{  
-    background: $colorBackMenu2;
-  h2{
+#menu3 {
+  background: $colorBackMenu2;
+  h2 {
     padding-left: 10px;
-    font-family: 'Dancing Script', Arial, Verdana, sans-serif;
-    @include degrade (bottom right, $colorTextMenu3a, $colorTextMenu3b);
+    font-family: "Dancing Script", Arial, Verdana, sans-serif;
+    @include degrade(bottom right, $colorTextMenu3a, $colorTextMenu3b);
     letter-spacing: 4px;
   }
-  h3{
-    font-family: 'comic sans ms', Arial, Verdana, sans-serif;
+  h3 {
+    font-family: "comic sans ms", Arial, Verdana, sans-serif;
   }
 }
-.description{
-  .plat3{
+.description {
+  .plat3 {
     letter-spacing: 1.2px;
-    &__text{
-      font-family: 'Bradley hand', Arial, Verdana, sans-serif;
+    &__text {
+      font-family: "Bradley hand", Arial, Verdana, sans-serif;
     }
   }
-} 
-.entree3, .plat3, .dessert3{
-  &__titre{
+}
+.entree3,
+.plat3,
+.dessert3 {
+  &__titre {
     @include surligne(black);
   }
 }
-#menu4{  
+#menu4 {
   background: $colorBackMenu4;
-  h2{
-    font-family: 'Kaushan Script', Arial, Verdana, sans-serif;
-    @include degrade (bottom right, $colorTextMenu4a, $colorTextMenu4b);
+  h2 {
+    font-family: "Kaushan Script", Arial, Verdana, sans-serif;
+    @include degrade(bottom right, $colorTextMenu4a, $colorTextMenu4b);
     letter-spacing: 4px;
   }
 }
-.description{
-  .plat4{
-    &__text{
-      font-family: 'Bradley hand', Arial, Verdana, sans-serif;
+.description {
+  .plat4 {
+    &__text {
+      font-family: "Bradley hand", Arial, Verdana, sans-serif;
     }
   }
-} 
-.entree4, .plat4, .dessert4{
-  &__titre{
+}
+.entree4,
+.plat4,
+.dessert4 {
+  &__titre {
     @include surligne(black);
   }
 }

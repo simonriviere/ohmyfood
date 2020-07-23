@@ -1,4 +1,4 @@
-header{
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,20 +6,20 @@ header{
   height: 235px;
   background: $colorFondPrincipal;
   border-bottom: 2px solid #a1c181;
-  h1{
-    font-family: 'Montserrat', Arial, Verdana, sans-serif;
+  h1 {
+    font-family: "Montserrat", Arial, Verdana, sans-serif;
     font-size: 4.7em;
-    margin: 0px ;
+    margin: 0px;
     text-align: center;
-    color : $colorTextPrincipal;
+    color: $colorTextPrincipal;
   }
-  a{
-    color:$colorTextPrincipal;
+  a {
+    color: $colorTextPrincipal;
   }
-  @media #{$large-down}{
-  height: 100px; 
-  h1   
-  {font-size : 2em;}
+  @media #{$large-down} {
+    height: 100px;
+    h1 {
+      font-size: 2em;
+    }
   }
 }
-  
