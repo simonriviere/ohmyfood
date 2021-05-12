@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.5",
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.10",
     "postcss-cli": "^7.1.1"
   }
 }
